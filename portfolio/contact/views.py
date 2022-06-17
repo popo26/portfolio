@@ -1,4 +1,4 @@
-from flask import render_template
+from flask import render_template, redirect, url_for, flash
 import datetime
 from portfolio.contact.forms import ContactForm
 from . import contact_bp
@@ -30,6 +30,7 @@ def contact():
                 from_addr= email, 
                 to_addrs=MAIL_EMAIL, 
                 msg=f"Subject:Received a message from Portfolio site\n\n{message}\nfrom: {name}")
-        return "Successfully Submitted"
+            flash("Successfully submitted!")
+        return redirect(url_for('contact_bp.contact'))
 
     return render_template('contact/contact.html', form=form, year=YEAR)

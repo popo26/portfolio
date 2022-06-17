@@ -11,6 +11,7 @@ body {
     background-image: url('images/background.jpg');
     background-size:cover;
     background-attachment: fixed;
+    color: #333;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -44,6 +45,14 @@ h1, h2, h3, h4, h5, h6, p {
     font-family: 'Pacifico', cursive;
 }
 
+.flash-message {
+    position: absolute;
+    top:10%;
+    transform: translate(-50%, 0);
+    left:50%;
+    color:#FF87CA;
+}
+
 
 /* landing.html */
 
@@ -61,7 +70,6 @@ h1, h2, h3, h4, h5, h6, p {
     width: 20%;
 
 }
-
 
 .individual-icon {
     color: grey;
@@ -120,20 +128,39 @@ h1, h2, h3, h4, h5, h6, p {
     font-family: 'Inconsolata', monospace;
 }
 
+.attribution-link {
+    color:#333;
+    font-weight: lighter;
+}
+
+.attribution-link:hover {
+    color:#87AAAA;
+}
+
+
+.contact-button {   
+    font-family: 'Inconsolata', monospace;
+    margin: 2% auto 2%;
+    background-color: #333;
+    color: white;
+}
+
+.contact-button:hover {   
+    color: pink;
+}
 
 
 /* resume.html */
 
 .resume-main-div {
-    margin-top: 10%;
-    /* background-color: grey; */
+    margin-top: 6%;
 }
 
 .resume-contact-reference{
-    /* background-color: yellow; */
     left:0;
     width: 20%;
     position: absolute;
+    text-align: right;
 }
 
 .resume-button {
@@ -148,10 +175,25 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .resume-work-education {
-    /* background-color: blueviolet; */
     position: absolute;
     right:0;
     width:80%;
+    
+}
+
+.resume-topic {
+    color: #97C4B8;    
+}
+
+.divider {
+    border-style: dotted none none;
+    width: 6%;
+    border-width: 6px;
+    border-color: #99A799;
+}
+
+.referal {
+    font-weight: bold;
 }
 
 /* portfolio.html */
