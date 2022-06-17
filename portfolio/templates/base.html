@@ -1,0 +1,67 @@
+{% extends 'bootstrap/base.html' %}
+   
+
+    {% block head %}{{ super() }}
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Bungee+Inline&family=Courgette&family=Galada&family=Hind:wght@300&family=Inconsolata&family=Itim&family=Mukta:wght@200;800&family=Oleo+Script+Swash+Caps&family=Pacifico&family=Rancho&display=swap" rel="stylesheet">
+<!-- CSS     -->
+<link rel="stylesheet" type ="text/css" href="{{ url_for('static', filename='style.css')}}" />
+<!-- font awesome -->
+<script src="https://kit.fontawesome.com/c63fcc0406.js" crossorigin="anonymous"></script>
+    {% endblock %}
+
+    {% block title %}{{ super() }}Ai Oakenfull {% endblock %}
+
+<body>
+
+    {% block navbar %}
+    <div class="navbar navbar-default nav-main" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand name" href="/">Ai Oakenfull</a>
+            </div>
+          
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right nav-name">
+                    <li><a href="{{ url_for('contact_bp.contact')}}">Contact</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right nav-name">
+                    <li><a href="{{ url_for('resume_bp.resume')}}">Resume</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right nav-name">
+                    <li><a href="{{ url_for('main_bp.portfolio')}}">Portfolio</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right nav-name">
+                    <li><a href="{{ url_for('main_bp.index')}}">Introduction</a></li>
+                </ul>
+               
+               
+            </div>
+        </div>
+    </div>
+  
+  {% endblock %}
+
+
+    {% block content %} 
+    {% block footer %}<footer class="footer">© {{ year }} Ai Oakenful</footer>{% endblock %} 
+    {% endblock %}
+
+    
+</body>
+
+
+
+
+
+
+
+

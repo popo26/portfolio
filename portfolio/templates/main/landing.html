@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block navbar %}{% endblock %}
+
+{% block content %}{{super()}}
+
+<div class="landing">
+    <img class="profile-photo" src="https://media.giphy.com/media/ASd0Ukj0y3qMM/giphy.gif" alt="profile-photo">
+    <h1 class="landing-name">I am Ai.</h1>
+    <br>
+    <h2>Python full stack developer</h2>
+
+    <p>Django | Flask | HTML | CSS | Bootstrap | PostgreSQL</p>
+
+
+
+    <div class="landing-button">
+        <a href="{{ url_for('main_bp.index')}}"><button type='button'
+                class="btn btn-outline-dark btn-lg landing-button2">Find out more</button></a>
+    </div>
+
+    <div class="social-icons">
+        <div class="individual-icon"><a href="https://nz.linkedin.com/in/ai-oakenfull-319297163"><i class="fa-brands fa-linkedin fa-2x "></i></a></div>
+        <div class="individual-icon"><a href="https://github.com/popo26"><i class="fa-brands fa-github fa-2x "></i></a></div>
+    </div>
+
+</div>
+
+{% endblock %}

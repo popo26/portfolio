@@ -1,0 +1,173 @@
+/* base.html */
+
+body {
+    text-align: center;
+    background-image: url('images/background.jpg');
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Inconsolata', monospace;
+}
+
+.nav-main {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+.nav-name {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 400;
+}
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #716F81;
+    font-family: 'Inconsolata', monospace;
+    z-index: 1;
+}
+
+.name {
+    font-family: 'Pacifico', cursive;
+}
+
+
+/* landing.html */
+
+.landing-name {
+    font-size: 80px;
+    font-family: 'Pacifico', cursive;
+}
+
+.landing {
+    margin: 3% auto 5%;
+}
+
+.profile-photo {
+    border-radius: 100%;
+    width: 20%;
+
+}
+
+/* .social-icons {
+
+} */
+
+.individual-icon {
+    color: grey;
+    display: inline-block;
+    padding: 2% 1%;
+    
+}
+
+.fa-brands {
+    color: #333;
+}
+
+.landing-button {
+    font-family: 'Inconsolata', monospace;
+    margin: 2% auto 2%;
+    font-weight: bold;
+}
+
+.landing-button2 {
+    background-color: #333;
+    color: white;
+}
+
+.landing-button2:hover {
+    background-color: #333;
+    color: pink;
+}
+
+/* index.html */
+
+.index-div {
+    padding-top: 10%;
+}
+
+/* contact.html */
+
+.contact-div {
+    margin-top: 10%;
+}
+
+.contact-form {
+    width:60%;
+    margin: auto;
+    font-family: 'Inconsolata', monospace;
+}
+
+.attribution {
+    position:absolute;
+    right: 0;
+    bottom: 3%;
+    width: 100%;
+    color: #716F81;
+    font-family: 'Inconsolata', monospace;
+}
+
+
+
+/* resume.html */
+
+.resume-main-div {
+    margin-top: 10%;
+    /* background-color: grey; */
+}
+
+.resume-contact-reference{
+    /* background-color: yellow; */
+    left:0;
+    width: 20%;
+    position: absolute;
+    
+}
+
+.resume-work-education {
+    /* background-color: blueviolet; */
+    position: absolute;
+    right:0;
+    width:80%;
+}
+
+/* portfolio.html */
+
+.portfolio-div {
+    margin-top: 10%;
+}
+
+.div-work {
+    width: 60%;
+    margin: 5% auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.img-one {
+    border-radius: 100%;
+    width:20%;
+    float: right;
+    margin-left: 30px;
+}
+
+.img-two {
+    border-radius: 100%;
+    width:20%; 
+    float: left;
+    margin-right:30px;
+}
+
+.img-three {
+    
+    width:20%;
+    float: right;
+    margin-left: 30px;
+}

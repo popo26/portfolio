@@ -1,0 +1,7 @@
+venv
+.env
+*.sqlite
+__pycache__
+dev_setup.sh
+*.png
+*.jpg

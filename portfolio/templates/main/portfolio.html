@@ -1,0 +1,87 @@
+{% extends 'base.html' %}
+
+{% block content %}{{super()}}
+<div class="portfolio-div">
+    <h1>Portfolio</h1>
+    <br>
+    <div class="div-work">
+        <img class='img-one' src="{{ url_for('static', filename='images/jket_logo.jpg') }}" alt="jket-logo">
+        <h3>JKET Parent Registration App</h3>
+        <h4>Django | HTML | CSS | Bootstrap</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Tempor orci eu lobortis elementum. Et odio pellentesque diam volutpat
+            commodo sed egestas egestas. Diam maecenas sed enim ut sem viverra aliquet eget sit.
+            Varius quam quisque id diam. Rutrum quisque non tellus orci. Odio aenean
+            sed adipiscing diam donec adipiscing tristique risus nec. Arcu felis bibendum
+            ut tristique et. Dignissim suspendisse in est ante in. Sem fringilla ut morbi
+            tincidunt augue interdum velit euismod in.</p>
+        <div class="individual-icon"><a href="https://github.com/popo26/jket_visitor_registration_app_demo"><i
+                    class="fa-brands fa-github fa-2x "></i></a></div>
+    </div>
+
+    <div class="div-work">
+        <img class='img-two' src="{{ url_for('static', filename='images/remember-coco.png') }}" alt="remember-coco">
+        <h3>Remember Coco - Payment Tracking App</h3>
+        <h4>Django | HTML | CSS | Bootstrap</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Tempor orci eu lobortis elementum. Et odio pellentesque diam volutpat
+            commodo sed egestas egestas. Diam maecenas sed enim ut sem viverra aliquet eget sit.
+            Varius quam quisque id diam. Rutrum quisque non tellus orci. Odio aenean
+            sed adipiscing diam donec adipiscing tristique risus nec. Arcu felis bibendum
+            ut tristique et. Dignissim suspendisse in est ante in. Sem fringilla ut morbi
+            tincidunt augue interdum velit euismod in.</p>
+        <div class="individual-icon"><a href="https://github.com/popo26/payment_tracking"><i
+                    class="fa-brands fa-github fa-2x "></i></a></div>
+    </div>
+
+    <div class="div-work">
+        <img class='img-three' src="{{ url_for('static', filename='images/kikki_kopski.png') }}" alt="kikki-kopski">
+        <h3>Kikki Kopski</h3>
+        <h4>Flask | HTML | CSS | Bootstrap | HTML5UP</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Tempor orci eu lobortis elementum. Et odio pellentesque diam volutpat
+            commodo sed egestas egestas. Diam maecenas sed enim ut sem viverra aliquet eget sit.
+            Varius quam quisque id diam. Rutrum quisque non tellus orci. Odio aenean
+            sed adipiscing diam donec adipiscing tristique risus nec. Arcu felis bibendum
+            ut tristique et. Dignissim suspendisse in est ante in. Sem fringilla ut morbi
+            tincidunt augue interdum velit euismod in.</p>
+        <div class="individual-icon"><a href="https://github.com/popo26/kikki_kopski_HTML5up"><i
+                    class="fa-brands fa-github fa-2x "></i></a></div>
+    </div>
+
+    <div class="div-work">
+        <img class='img-two' src="{{ url_for('static', filename='images/remember-coco.png') }}" alt="remember-coco">
+        <h3>NZD-JPY Exchange Rate Alert</h3>
+        <h4>Python3</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Tempor orci eu lobortis elementum. Et odio pellentesque diam volutpat 
+            commodo sed egestas egestas. Diam maecenas sed enim ut sem viverra aliquet eget sit. 
+            Varius quam quisque id diam. Rutrum quisque non tellus orci. Odio aenean 
+            sed adipiscing diam donec adipiscing tristique risus nec. Arcu felis bibendum 
+            ut tristique et. Dignissim suspendisse in est ante in. Sem fringilla ut morbi 
+            tincidunt augue interdum velit euismod in.</p>
+            <div class="individual-icon"><a href="https://github.com/popo26/nzd-jpy-exchange-rate-alert-app"><i class="fa-brands fa-github fa-2x "></i></a></div>
+        </div>
+
+        <div class="div-work">
+            <img class='img-one' src="{{ url_for('static', filename='images/jket_logo.jpg') }}" alt="jket-logo">
+            <h3>TradeMe Rental Research</h3>
+            <h4>Python3</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Tempor orci eu lobortis elementum. Et odio pellentesque diam volutpat
+                commodo sed egestas egestas. Diam maecenas sed enim ut sem viverra aliquet eget sit.
+                Varius quam quisque id diam. Rutrum quisque non tellus orci. Odio aenean
+                sed adipiscing diam donec adipiscing tristique risus nec. Arcu felis bibendum
+                ut tristique et. Dignissim suspendisse in est ante in. Sem fringilla ut morbi
+                tincidunt augue interdum velit euismod in.</p>
+            <div class="individual-icon"><a href="https://github.com/popo26/trademe_rental_research"><i
+                        class="fa-brands fa-github fa-2x "></i></a></div>
+        </div>
+
+</div>
+{% endblock %}
