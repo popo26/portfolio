@@ -3,10 +3,12 @@ from flask import Flask
 from config import config
 from flask_bootstrap import Bootstrap
 from dotenv import load_dotenv
+from flask_mail import Mail
 
 load_dotenv()
 
 bootstrap = Bootstrap()
+mail = Mail()
 
 def create_app(config_name = "default"):
     app = Flask(__name__)
@@ -17,6 +19,7 @@ def create_app(config_name = "default"):
     app.config["SECRET_KEY"]= os.getenv('SECRET_KEY')
 
     bootstrap.init_app(app)
+    # mail.init_app(app)
 
     from .main import main_bp
     from .contact import contact_bp

@@ -1,3 +1,9 @@
+/* over multiple templates */
+
+.big-title {
+    font-size: 50px;
+}
+
 /* base.html */
 
 body {
@@ -56,15 +62,11 @@ h1, h2, h3, h4, h5, h6, p {
 
 }
 
-/* .social-icons {
-
-} */
 
 .individual-icon {
     color: grey;
     display: inline-block;
     padding: 2% 1%;
-    
 }
 
 .fa-brands {
@@ -91,6 +93,10 @@ h1, h2, h3, h4, h5, h6, p {
 
 .index-div {
     padding-top: 10%;
+}
+
+.introduction {
+    line-height: 2;
 }
 
 /* contact.html */
@@ -128,7 +134,17 @@ h1, h2, h3, h4, h5, h6, p {
     left:0;
     width: 20%;
     position: absolute;
-    
+}
+
+.resume-button {
+    font-family: 'Inconsolata', monospace;
+    margin: 2% auto 2%;
+    background-color: #333;
+    color: white;
+}
+
+.resume-button:hover {
+    color:aquamarine;
 }
 
 .resume-work-education {
