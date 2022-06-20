@@ -15,7 +15,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6, p {
-    font-family: 'Inconsolata', monospace;
+    /* font-family: 'Inconsolata', monospace; */
+    font-family: 'Calibri';
 }
 
 .nav-main {
@@ -193,6 +194,15 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .referal {
+    font-weight: bold;
+}
+
+.bold-title {
+    font-weight: bold;
+}
+
+.course-title {
+    color:midnightblue;
     font-weight: bold;
 }
 

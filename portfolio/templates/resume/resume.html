@@ -2,68 +2,114 @@
 
 {% block content %}{{super()}}
 <div class="resume-main-div">
-    
-<div class="resume-contact-reference">
-<a href="{{ url_for('static', filename='/images/test.pdf')}}" target="blank"><button type='button'
-    class="btn btn-outline-dark btn-lg resume-button">Full Resume</button></a>
-    <br>
-    <h3>Ai Oakenfull</h3>
-    <p>1 Idyll Place Northcross, Auckland 0632 <i class="fa-solid fa-location-dot"></i></p>
-    <p>+64210757620 <i class="fa-solid fa-phone"></i></p>
-    <p>ai.oakenfull@gmail.com <i class="fa-solid fa-envelope-open"></i></p>
-<br>
-<br>
-<br>
-    <h3 class="resume-topic">REFERENCES</h3>
-    <br>
-    <h4 class="referal">Daniel Richardson</h4>
-    <h5>Former IT Manager at Fraedom Limited</h5>
-    <p>+6421607111 <i class="fa-solid fa-phone"></i></p>
-    <p>danielr@mgcars.co.nz <i class="fa-solid fa-envelope-open"></i></p>
-    <br>
-    <h4 class="referal">Nicholas Keith</h4>
-    <h5>IT Manager at Fraedom Limited</h5>
-    <p>+64212267077 <i class="fa-solid fa-phone"></i></p>
-    <p>nkeith@fraedom.com <i class="fa-solid fa-envelope-open"></i></p>
-    <br>
-    <h4 class="referal">Sharon Charles</h4>
-    <h5>Former teacher at Freelance Animation School</h5>
-    <p>+61420220974 <i class="fa-solid fa-phone"></i></p>
-    <p>sharonmcharles@hotmail.com <i class="fa-solid fa-envelope-open"></i></p>
-</div>
 
-<div class="resume-work-education">
-    <h1 class="resume-topic">EMPLOYMENT</h1>
-    <h3>Fraedom Limited./Visa Inc.</h3>
-    <p>IT System Support Engineers</p>
-    <p>Mar 2013-Jan 2022</p>
-    <br>
-    <h3>Freelance Animation School</h3>
-    <p>IT Support Technician</p>
-    <p>Aug 2011-Mar 2012</p>
-    <br>
-    <br>
-    <hr class="divider">
-    <br>
-    <h1 class="resume-topic">EDUCATION</h1>
-    <h3>Codingnomads</h3>
-    <p>Python basics | Djdango & Flask web development</p>
-    <p>Feb 2022 - </p>
-    <br>
-    <h3>Udemy</h3>
-    <p>100 Days of Code: The Complete Python Pro Bootcamp</p>
-    <p>Jul 2021 - Feb 2022 </p>
-    <br>
-    <h3>AIMS I.T. Academy</h3>
-    <p>Diploma in System Administration</p>
-    <p>CompTIA A+Certified Computer Technician | Microsoft Certified IT Professional(MCITP) |
-        CCNA</p>
-    <p> Jan 2011- Sep 2011</p>
-    <br>
+    <div class="resume-contact-reference">
+        <a href="{{ url_for('static', filename='/images/resume.pdf')}}" target="blank"><button type='button'
+                class="btn btn-outline-dark btn-lg resume-button">Full Resume</button></a>
+        <br>
+        <h3>Ai Oakenfull</h3>
+        <p>1 Idyll Place Northcross, Auckland 0632 <i class="fa-solid fa-location-dot"></i></p>
+        <p>+64210757620 <i class="fa-solid fa-phone"></i></p>
+        <p>ai.oakenfull@gmail.com <i class="fa-solid fa-envelope-open"></i></p>
+        <br>
+        <h3 class="resume-topic">TECH SKILLS</h3>
+        <p>Python 3.x | Django | Flask </p>
+        <p>HTML | CSS | Linux | Windows </p>
+        <p>SQLite3 | PostgreSQL </p>
+            <br>
+        <h3 class="resume-topic">SOFT SKILLS</h3>
+        <p>Communitation | Patience | Accountability </p>
+        <p>Self-learner | Problem-solving </p>
+        <p>Japanese | Strong memory | Approchable </p>
+        <br>
+        <br>
+        <h3 class="resume-topic">REFERENCES</h3>
+        <br>
+        <h4 class="referal">Daniel Richardson</h4>
+        <h5>Former IT Manager at Fraedom Limited</h5>
+        <p>+6421607111 <i class="fa-solid fa-phone"></i></p>
+        <p>danielr@mgcars.co.nz <i class="fa-solid fa-envelope-open"></i></p>
+        <br>
+        <h4 class="referal">Nicholas Keith</h4>
+        <h5>IT Manager at Fraedom Limited</h5>
+        <p>+64212267077 <i class="fa-solid fa-phone"></i></p>
+        <p>nkeith@fraedom.com <i class="fa-solid fa-envelope-open"></i></p>
+        <br>
+        <h4 class="referal">Sharon Charles</h4>
+        <h5>Former teacher at Freelance Animation School</h5>
+        <p>+61420220974 <i class="fa-solid fa-phone"></i></p>
+        <p>sharonmcharles@hotmail.com <i class="fa-solid fa-envelope-open"></i></p>
+    </div>
 
+    <div class="resume-work-education">
 
+        <h1 class="resume-topic">EDUCATION</h1>
+        <br>
+        <h2 class="bold-title">Codingnomads</h2>
+        <h3 class="course-title"><a href="https://codingnomads.co/" target="blank">Python basics | Djdango & Flask web development</a></h3>
+        <p>Feb 2022 - Aug 2022</p>
+        <br>
+        <h4 class="bold-title">Acquired Skills:</h4>
+        <p>Django/Flask for Backend Web Development.</p>
+        <p>Heroku/AWS deployment.</p>
+        <p>SQL basics/SQLite3/PostgreSQL.</p>
+        <p>Unit Testing(Unittest & Pytest).</p>
+        <p>Version control with Git/GitHub.</p>
+        <br>
+        <p><a href="{{ url_for('main_bp.portfolio')}}">JKET Parent Registration Project </a>as Django capstone project</p>
+        <p>This Portfolio site as Flask capstone project</p>
+        <br>
+        <br>
+        <h2 class="bold-title">Udemy</h2>
+        <h3 class="course-title"><a href="https://www.udemy.com/course/100-days-of-code/" target="blank">100 Days of Code: The Complete Python Pro Bootcamp</a></h3>
+        <p>Jul 2021 - Feb 2022 </p>
+        <br>
+        <h4 class="bold-title">Acquired Skills: </h4>
+        <p>List,Dictionary, OOP, Beautiful Soup, Selenium, APIs, REST APIs.</p>
+        <p>Flask for Backend Web Development.</p>
+        <p>HTML/CSS/Bootstrap for Frontend Web Development.</p>
+        <!-- <br>
+        <br>
+        <h2>AIMS I.T. Academy</h2>
+        <h3>Diploma in System Administration</h3>
+        <p> Jan 2011- Sep 2011</p>
+        <br>
+        <p>Formal Certifications:</p>
+        <p>CompTIA A+Certified Computer Technician | Microsoft Certified IT Professional(MCITP) |
+            CCNA</p>
+            <p>Award:</p>
+        <p>Distinction in Academic Achievement - Cisco Certify Network Administrator</p> -->
+        <br>
+        <br>
 
-</div>
+        <hr class="divider">
+        <br>
+        <br>
+        <h1 class="resume-topic">EMPLOYMENT</h1>
+        <br>
+        <h2 class="bold-title">Systems Support Engineer</h2>
+        <h4>Fraedom Limited./Visa Inc.</h4>
+        <p>Mar 2013-Jan 2022</p>
+        <br>
+        <h4 class="bold-title">Roles: </h4>
+        <p>Global Support for internal servers, workstations, mobiles, tablets, printers, audio devices.</p>
+        <p>Active Directory, Domain Controllers, WSUS, DNS, DHCP, File Servers, Exchange Server, VMware, Hyper-V. </p>
+        <p>Microsoft Windows 2k~10, Server 2008~2019, SQL Server, SharePoint, Jira, Confluence.</p>
+        <p>In charge of setup/maintenance of MDT for global OS deployment.</p>
+        <br>
+        <br>
+        <h2 class="bold-title">IT Support Technician</h2>
+        <h4>Freelance Animation School</h4>
+        <p>Aug 2011-Mar 2012</p>
+        <br>
+        <h4 class="bold-title">Roles: </h4>
+        <p>Support for internal workstations, printers. Software/hardware/network troubleshooting.</p>
+        <p>Active Directory, Domain Controller, WSUS, FSRM, Anti-vurus solution.</p>
+        
+        
+       
+       
+    </div>
 </div>
 
 
