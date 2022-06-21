@@ -28,7 +28,8 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .nav-name {
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Calibri';
+    /* font-family: 'Inconsolata', monospace; */
     font-weight: 400;
 }
 
@@ -39,7 +40,8 @@ h1, h2, h3, h4, h5, h6, p {
     bottom: 0;
     width: 100%;
     color: #716F81;
-    font-family: 'Inconsolata', monospace;
+    /* font-family: 'Inconsolata', monospace; */
+    font-family: 'Calibri';
     z-index: 1;
 }
 
@@ -90,7 +92,7 @@ h1, h2, h3, h4, h5, h6, p {
     90% { transform: translate(1px, 2px) rotate(0deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg); }
   }
-  
+
 
 .individual-icon {
     color: grey;
@@ -103,7 +105,8 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .landing-button {
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Calibri';
+    /* font-family: 'Inconsolata', monospace; */
     margin: 2% auto 2%;
     font-weight: bold;
 }
@@ -114,7 +117,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .landing-button2:hover {
-    background-color: #333;
+    background-color: #777;
     color: pink;
 }
 
@@ -128,6 +131,11 @@ h1, h2, h3, h4, h5, h6, p {
     line-height: 2;
 }
 
+.introduction-message {
+    width: 80%;
+    margin: auto;
+}
+
 /* contact.html */
 
 .contact-div {
@@ -137,7 +145,8 @@ h1, h2, h3, h4, h5, h6, p {
 .contact-form {
     width:60%;
     margin: auto;
-    font-family: 'Inconsolata', monospace;
+    /* font-family: 'Inconsolata', monospace; */
+    font-family: 'Calibri';
 }
 
 .attribution {
@@ -146,11 +155,12 @@ h1, h2, h3, h4, h5, h6, p {
     bottom: 3%;
     width: 100%;
     color: #716F81;
-    font-family: 'Inconsolata', monospace;
+    /* font-family: 'Inconsolata', monospace; */
+    font-family: 'Calibri';
 }
 
 .attribution-link {
-    color:#333;
+    color:#777;
     font-weight: lighter;
 }
 
@@ -160,7 +170,8 @@ h1, h2, h3, h4, h5, h6, p {
 
 
 .contact-button {   
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Calibri';
+    /* font-family: 'Inconsolata', monospace; */
     margin: 2% auto 2%;
     background-color: #333;
     color: white;
@@ -168,6 +179,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .contact-button:hover {   
     color: pink;
+    background-color: #777;
 }
 
 
@@ -190,7 +202,8 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .resume-button {
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Calibri';
+    /* font-family: 'Inconsolata', monospace; */
     margin: 2% auto 2%;
     background-color: #333;
     color: white;
@@ -198,6 +211,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .resume-button:hover {
     color:aquamarine;
+    background-color: #777;
 }
 
 .resume-work-education {
