@@ -5,7 +5,8 @@
 {% block content %}{{super()}}
 
 <div class="landing">
-    <img class="profile-photo" src="https://media.giphy.com/media/ASd0Ukj0y3qMM/giphy.gif" alt="profile-photo">
+    <!-- <img class="profile-photo" src="https://media.giphy.com/media/ASd0Ukj0y3qMM/giphy.gif" alt="profile-photo"> -->
+    <img class="profile-photo" src="{{ url_for('static', filename='images/aitoon.jpg') }}" alt="profile-photo">
     <h1 class="landing-name">I am Ai.</h1>
     <br>
     <h2>Python full stack developer</h2>

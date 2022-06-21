@@ -14,6 +14,7 @@ body {
     color: #333;
 }
 
+
 h1, h2, h3, h4, h5, h6, p {
     /* font-family: 'Inconsolata', monospace; */
     font-family: 'Calibri';
@@ -69,8 +70,27 @@ h1, h2, h3, h4, h5, h6, p {
 .profile-photo {
     border-radius: 100%;
     width: 20%;
-
 }
+
+.profile-photo:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+  
 
 .individual-icon {
     color: grey;
@@ -164,6 +184,11 @@ h1, h2, h3, h4, h5, h6, p {
     text-align: right;
 }
 
+.contact-reference-div {
+    width: 100%;
+    margin:auto;
+}
+
 .resume-button {
     font-family: 'Inconsolata', monospace;
     margin: 2% auto 2%;
@@ -178,8 +203,11 @@ h1, h2, h3, h4, h5, h6, p {
 .resume-work-education {
     position: absolute;
     right:0;
+    width:80%; 
+}
+.work-education-div {
     width:80%;
-    
+    margin:auto;
 }
 
 .resume-topic {
