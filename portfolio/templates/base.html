@@ -14,10 +14,10 @@
 
     {% block title %}{{ super() }}Ai Oakenfull {% endblock %}
 
-<body>
+
 
     {% block navbar %}
-    <div class="navbar navbar-default nav-main" role="navigation">
+    <div class="navbar navbar-default nav-main nav-color" role="navigation">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -51,20 +51,22 @@
   {% endblock %}
 
 
-    {% block content %} 
-
+    {% block content %}
+    <main>
     {% for msg in get_flashed_messages() %}
     <div class="alert alert-light flash-message">
         <button type="button" class="done" data-dismiss="alert">&times;</button>
         {{ msg }}
     </div>
     {% endfor %}
+   
+    {% block page_content %}{% endblock %}
+    </main>
+    <footer>© {{ year }} Ai Oakenful</footer>
 
-    {% block footer %}<footer class="footer">© {{ year }} Ai Oakenful</footer>{% endblock %} 
     {% endblock %}
-
     
-</body>
+
 
 
 

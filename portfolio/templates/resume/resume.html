@@ -1,6 +1,7 @@
 {% extends 'base.html' %}
 
-{% block content %}{{super()}}
+{% block content %}
+{% block page_content %}
 <div class="resume-main-div">
 
     <div class="resume-contact-reference">
@@ -109,13 +110,13 @@
         <h4 class="bold-title">Roles: </h4>
         <p>Support for internal workstations, printers. Software/hardware/network troubleshooting.</p>
         <p>Active Directory, Domain Controller, WSUS, FSRM, Anti-vurus solution.</p>
-    </div>
+
         
-       
-       
     </div>
+    <footer class="special_footer">© {{ year }} Ai Oakenful</footer>
+    </div>
+    
 </div>
 
-
-
+{% endblock %}
 {% endblock %}

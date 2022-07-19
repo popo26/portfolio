@@ -19,18 +19,19 @@ YEAR = datetime.datetime.now().year
 def contact():
     form = ContactForm()
     if request.method == "POST":
-        name = request.form["name"]
-        email = request.form['email']
-        message = request.form['message']
+        if form.validate_on_submit():
+            name = request.form["name"]
+            email = request.form['email']
+            message = request.form['message']
 
-        with smtplib.SMTP("smtp.gmail.com") as connection:
-            connection.starttls()
-            connection.login(MAIL_EMAIL, MAIL_PASSWORD)
-            connection.sendmail(
-                from_addr= email, 
-                to_addrs=MAIL_EMAIL, 
-                msg=f"Subject:Received a message from Portfolio site\n\n{message}\nfrom: {name}")
-            flash("Successfully submitted!")
-        return redirect(url_for('contact_bp.contact'))
+            with smtplib.SMTP("smtp.gmail.com") as connection:
+                connection.starttls()
+                connection.login(MAIL_EMAIL, MAIL_PASSWORD)
+                connection.sendmail(
+                    from_addr= email, 
+                    to_addrs=MAIL_EMAIL, 
+                    msg=f"Subject:Received a message from Portfolio site\n\n{message}\nFrom: {name}\n{email}")
+                flash("Successfully submitted!")
+            return redirect(url_for('contact_bp.contact'))
 
     return render_template('contact/contact.html', form=form, year=YEAR)
