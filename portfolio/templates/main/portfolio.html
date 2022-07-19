@@ -6,7 +6,9 @@
     <br>
 
     <div class="div-work">
-        <img class='img-one' src="{{ url_for('static', filename='images/freestuff.jpg') }}" alt="freestuff">
+        <!-- <img class='img-one' src="{{ url_for('static', filename='images/freestuff.jpg') }}" alt="freestuff"> -->
+        <img class='img-one' src="{{ url_for('main_bp.download_image', resource='freestuff.jpg') }}" alt="freestuff">
+        
         <h3>FreeStuff App</h3>
         <h4>Flask | HTML | CSS | Bootstrap</h4>
         <p>This application is made for <a href="http://jket.epizy.com/?i=1">Japan Kauri Education Trust </a>in Auckland, New Zealand 
@@ -25,7 +27,8 @@
     </div>
 
     <div class="div-work">
-        <img class='img-two' src="{{ url_for('static', filename='images/jket_logo.jpg') }}" alt="jket-logo">
+        <!-- <img class='img-two' src="{{ url_for('static', filename='images/jket_logo.jpg') }}" alt="jket-logo"> -->
+        <img class='img-two' src="{{ url_for('main_bp.download_image', resource='jket_logo.jpg') }}" alt="jket-logo">
         <h3>JKET Parent Registration App</h3>
         <h4>Django | HTML | CSS | Bootstrap</h4>
         <p>This application is made for <a href="http://jket.epizy.com/?i=1">Japan Kauri Education Trust </a>in Auckland, New Zealand 
@@ -61,7 +64,8 @@
     </div>
 
     <div class="div-work">
-        <img class='img-two' src="{{ url_for('static', filename='images/kikki_kopski.png')  }}" alt="kikki-kopski">
+        <!-- <img class='img-two' src="{{ url_for('static', filename='images/kikki_kopski.png')  }}" alt="kikki-kopski"> -->
+        <img class='img-two' src="{{ url_for('main_bp.download_image', resource='kikki_kopski.png') }}" alt="kikki-kopski">
         <h3>Kikki Kopski</h3>
         <h4>Flask | HTML | CSS | Bootstrap | HTML5UP</h4>
         <p>I studied Metalsmithing at Savannah College of Art and Design in Savannah, Georgia, USA back in 2002.
@@ -78,7 +82,8 @@
     </div>
 
         <div class="div-work">
-            <img class='img-one' src="{{ url_for('static', filename='images/exchange_rate.jpeg')  }}" alt="exchange-rate">
+            <!-- <img class='img-one' src="{{ url_for('static', filename='images/exchange_rate.jpeg')  }}" alt="exchange-rate"> -->
+            <img class='img-one' src="{{ url_for('main_bp.download_image', resource='exchange_rate.jpeg') }}" alt="exchange-rate">
             <h3>NZD-JPY Exchange Rate Alert</h3>
             <h4>Python3</h4>
             <p>Being from Japan and living in New Zealand, I need to keep an eye on currency exchange rate to transfer money.
@@ -93,7 +98,8 @@
         </div>
 
         <div class="div-work">
-            <img class='img-two' src="{{ url_for('static', filename='images/trademe.jpeg')  }}" alt="trademe">
+            <!-- <img class='img-two' src="{{ url_for('static', filename='images/trademe.jpeg')  }}" alt="trademe"> -->
+            <img class='img-two' src="{{ url_for('main_bp.download_image', resource='trademe.jpeg') }}" alt="trademe">
             <h3>TradeMe Rental Research</h3>
             <h4>Python3 | Selenium</h4>
             <p>While we were deciding how much we should be renting our rampus room downstairs, 

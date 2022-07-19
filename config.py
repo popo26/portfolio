@@ -5,7 +5,22 @@ load_dotenv()
 
 class Config():
     HTTPS_REDIRECT = False
-    
+
+    AWS_ACCESS_KEY_ID = os.getenv('AWS_ACCESS_KEY_ID')
+    AWS_SECRET_ACCESS_KEY = os.getenv('AWS_SECRET_ACCESS_KEY')
+    ACL = 'public-read'
+    S3_BUCKET_NAME = os.getenv('S3_BUCKET_NAME')
+    S3_REGION = os.getenv('S3_REGION') 
+    S3_BUCKET_PATH = os.getenv('S3_BUCKET_PATH')
+
+    MAIL_SERVER = 'smtp.gmail.com'
+    MAIL_PORT = 587
+    MAIL_USE_TLS = True
+
+    MAIL_EMAIL = os.getenv("MAIL_EMAIL")
+    MAIL_PASSWORD = os.getenv("MAIL_PASSWORD")
+
+        
     @staticmethod
     def init_app(app):
         pass

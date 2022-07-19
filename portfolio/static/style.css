@@ -7,7 +7,8 @@
 /* base.html */
 body {
     text-align: center;
-    background-image: url('images/background.jpg');
+    /* background-image: url('images/background.jpg'); Uncomment when using static/images on the server*/
+       
     background-size:cover;
     background-attachment: fixed;
     color: #333;
