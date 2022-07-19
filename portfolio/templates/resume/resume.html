@@ -1,13 +1,18 @@
 {% extends 'base.html' %}
 
-{% block content %}{{super()}}
+
 {% block page_content %}
 <div class="resume-main-div">
 
     <div class="resume-contact-reference">
         <div class="contact-reference-div">
-        <a href="{{ url_for('static', filename='/images/resume.pdf')}}" target="blank"><button type='button'
-                class="btn btn-outline-dark btn-lg resume-button">Full Resume</button></a>
+        <!-- <a href="{{ url_for('static', filename='/images/resume.pdf')}}" target="blank"><button type='button'
+                class="btn btn-outline-dark btn-lg resume-button">Full Resume</button></a> -->
+
+        <a href="{{ url_for('resume_bp.download_resume')}}" target="blank"><button type='button'
+            class="btn btn-outline-dark btn-lg resume-button">Full Resume</button></a>
+
+    
         <br>
         <h3>Ai Oakenfull</h3>
         <p>1 Idyll Place Northcross, Auckland 0632 <i class="fa-solid fa-location-dot"></i></p>
@@ -118,5 +123,4 @@
     
 </div>
 
-{% endblock %}
 {% endblock %}
