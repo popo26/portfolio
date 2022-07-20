@@ -7,3 +7,6 @@ dev_setup.sh
 *.jpg
 *.jpeg
 *.pdf
+server.crt
+server.csr
+server.key

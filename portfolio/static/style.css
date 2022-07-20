@@ -130,7 +130,7 @@ h1, h2, h3, h4, h5, h6, p {
   }
 
 
-.individual-icon {
+/* .individual-icon {
     color: grey;
     display: inline-block;
     padding: 2% 4%;
@@ -155,6 +155,16 @@ h1, h2, h3, h4, h5, h6, p {
     width:10%;
     margin: auto auto auto 88%;
 }
+
+.i-five {
+    width:10%;
+    margin: auto auto auto 88%;
+}
+
+.i-six {
+    width:10%;
+    margin: auto auto auto 88%;
+} */
 
 
 .fa-brands {
@@ -320,21 +330,49 @@ h1, h2, h3, h4, h5, h6, p {
 
 .img-one {
     border-radius: 100%;
-    width:20%;
+    width:29rem;
     float: right;
-    margin-left: 30px;
+    margin: auto;
+    padding:20px;
 }
 
 .img-two {
     border-radius: 100%;
-    width:20%; 
+    width:25rem; 
     float: left;
-    margin-right:30px;
+    margin: auto;
+    padding:0 30px 20px 20px;
 }
 
 .img-three {
-    
-    width:20%;
+    border-radius: 100%;
+    width:26rem;
     float: right;
-    margin-left: 30px;
+    margin: auto;
+    padding:20px;
+}
+
+.img-four {
+    
+    width:26rem;
+    float: left;
+    margin: auto;
+    padding:20px;
+}
+
+.img-five {
+    border-radius: 100%;
+    width:27rem;
+    float: right;
+    margin: auto;
+    padding:20px;
+}
+
+
+.img-six {
+    border-radius: 100%;
+    width:24rem;
+    float: left;
+    margin: auto;
+    padding:0 30px 20px 20px;
 }
