@@ -26,7 +26,6 @@ main {
 
 footer {
     color: #716F81;
-    /* font-family: 'Inconsolata', monospace; */
     font-family: 'Calibri';
     background-color:transparent;
 }
@@ -37,7 +36,6 @@ footer {
     bottom: -10vh;
     width: 100%;
     color: #716F81;
-    /* font-family: 'Inconsolata', monospace; */
     font-family: 'Calibri';
     background-color:transparent; 
 }
@@ -56,23 +54,18 @@ footer {
 
 
 h1, h2, h3, h4, h5, h6, p {
-    /* font-family: 'Inconsolata', monospace; */
-    /* font-family: 'Calibri'; */
     font-family: 'Tajawal';
     color:darkslategrey;
     
 }
 
 .nav-main {
-    /* position: fixed; */
     width: 100%;
     top: 0;
     z-index: 1;
 }
 
 .nav-name {
-    /* font-family: 'Tajawal'; */
-    /* font-family: 'Inconsolata', monospace; */
     font-weight: 400;
     font-family: 'Pacifico', cursive;
     
@@ -142,60 +135,19 @@ h1, h2, h3, h4, h5, h6, p {
   }
 
 
-/* .individual-icon {
-    color: grey;
-    display: inline-block;
-    padding: 2% 4%;
-}
-
-.i-one {
-    width:10%;
-    margin: auto auto auto 87%;
-}
-
-.i-two {
-    width:10%;
-    margin: auto 60% auto auto;
-}
-
-.i-three {
-    width:10%;
-    margin: auto 84% auto auto;
-}
-
-.i-four {
-    width:10%;
-    margin: auto auto auto 88%;
-}
-
-.i-five {
-    width:10%;
-    margin: auto auto auto 88%;
-}
-
-.i-six {
-    width:10%;
-    margin: auto auto auto 88%;
-} */
-
 
 .fa-brands {
-    /* color: #333; */
     color: darkslategrey;
 }
 
 .landing-button {
-    /* font-family: 'Calibri'; */
-    /* font-family: 'Inconsolata', monospace; */
     margin: 2% auto 2%;
     
     font-family: 'Tajawal';
 }
 
 .landing-button2 {
-    /* background-color: #333; */
     color: white;
-    /* font-weight: 700; */
     background-color: darkslategrey;
 }
 
@@ -228,8 +180,6 @@ h1, h2, h3, h4, h5, h6, p {
 .contact-form {
     width:60%;
     margin: auto;
-    /* font-family: 'Inconsolata', monospace; */
-    /* font-family: 'Calibri'; */
     font-family: 'Tajawal';
    
 }
@@ -240,7 +190,6 @@ h1, h2, h3, h4, h5, h6, p {
     bottom: 3%;
     width: 100%;
     color: #716F81;
-    /* font-family: 'Inconsolata', monospace; */
     font-family: 'Calibri';
 }
 
@@ -255,10 +204,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 
 .contact-button {   
-    /* font-family: 'Calibri'; */
-    /* font-family: 'Inconsolata', monospace; */
     margin: 2% auto 2%;
-    /* background-color: #333; */
     color: white;
     font-family: 'Tajawal';
     background-color: darkslategrey;
@@ -289,10 +235,7 @@ h1, h2, h3, h4, h5, h6, p {
 } */
 
 .resume-button {
-    /* font-family: 'Calibri'; */
-    /* font-family: 'Inconsolata', monospace; */
     margin: 2% auto 2%;
-    /* background-color: #333; */
     color: white;
     font-family: 'Tajawal';
     background-color: darkslategrey;
@@ -304,8 +247,6 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .resume-work-education {
-    /* position: absolute;
-    right:0; */
     width:80%; 
     margin:auto;
 }
@@ -315,7 +256,6 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .resume-work-education a:hover {
-    /* color:#333; */
     color:darkslategrey;
 }
 
@@ -344,7 +284,6 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .course-title {
-    /* color:midnightblue; */
     font-weight: bold;
 }
 
