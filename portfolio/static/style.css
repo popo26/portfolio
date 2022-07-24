@@ -2,6 +2,8 @@
 
 .big-title {
     font-size: 50px;
+    font-weight:700;
+    /* color:#777; */
 }
 
 /* base.html */
@@ -24,7 +26,7 @@ main {
 
 footer {
     color: #716F81;
-    font-family: 'Inconsolata', monospace;
+    /* font-family: 'Inconsolata', monospace; */
     font-family: 'Calibri';
     background-color:transparent;
 }
@@ -35,7 +37,7 @@ footer {
     bottom: -10vh;
     width: 100%;
     color: #716F81;
-    font-family: 'Inconsolata', monospace;
+    /* font-family: 'Inconsolata', monospace; */
     font-family: 'Calibri';
     background-color:transparent; 
 }
@@ -55,7 +57,10 @@ footer {
 
 h1, h2, h3, h4, h5, h6, p {
     /* font-family: 'Inconsolata', monospace; */
-    font-family: 'Calibri';
+    /* font-family: 'Calibri'; */
+    font-family: 'Tajawal';
+    color:darkslategrey;
+    
 }
 
 .nav-main {
@@ -66,9 +71,11 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .nav-name {
-    font-family: 'Calibri';
+    /* font-family: 'Tajawal'; */
     /* font-family: 'Inconsolata', monospace; */
     font-weight: 400;
+    font-family: 'Pacifico', cursive;
+    
 }
 
 .nav-color{
@@ -82,6 +89,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .name {
     font-family: 'Pacifico', cursive;
+    font-size:x-large;
 }
 
 .flash-message {
@@ -172,19 +180,23 @@ h1, h2, h3, h4, h5, h6, p {
 
 
 .fa-brands {
-    color: #333;
+    /* color: #333; */
+    color: darkslategrey;
 }
 
 .landing-button {
-    font-family: 'Calibri';
+    /* font-family: 'Calibri'; */
     /* font-family: 'Inconsolata', monospace; */
     margin: 2% auto 2%;
-    font-weight: bold;
+    
+    font-family: 'Tajawal';
 }
 
 .landing-button2 {
-    background-color: #333;
+    /* background-color: #333; */
     color: white;
+    /* font-weight: 700; */
+    background-color: darkslategrey;
 }
 
 .landing-button2:hover {
@@ -217,7 +229,9 @@ h1, h2, h3, h4, h5, h6, p {
     width:60%;
     margin: auto;
     /* font-family: 'Inconsolata', monospace; */
-    font-family: 'Calibri';
+    /* font-family: 'Calibri'; */
+    font-family: 'Tajawal';
+   
 }
 
 .attribution {
@@ -241,11 +255,13 @@ h1, h2, h3, h4, h5, h6, p {
 
 
 .contact-button {   
-    font-family: 'Calibri';
+    /* font-family: 'Calibri'; */
     /* font-family: 'Inconsolata', monospace; */
     margin: 2% auto 2%;
-    background-color: #333;
+    /* background-color: #333; */
     color: white;
+    font-family: 'Tajawal';
+    background-color: darkslategrey;
 }
 
 .contact-button:hover {   
@@ -273,11 +289,13 @@ h1, h2, h3, h4, h5, h6, p {
 } */
 
 .resume-button {
-    font-family: 'Calibri';
+    /* font-family: 'Calibri'; */
     /* font-family: 'Inconsolata', monospace; */
     margin: 2% auto 2%;
-    background-color: #333;
+    /* background-color: #333; */
     color: white;
+    font-family: 'Tajawal';
+    background-color: darkslategrey;
 }
 
 .resume-button:hover {
@@ -297,7 +315,8 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .resume-work-education a:hover {
-    color:#333;
+    /* color:#333; */
+    color:darkslategrey;
 }
 
 .work-education-div {
