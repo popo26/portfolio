@@ -1,6 +1,18 @@
 {% extends 'base.html' %}
 
+
 {% block content %}
+<body style="background-image: url({{ url_for('main_bp.download_image', resource='background.jpg')}});">
+          
+    <main>
+    {% for msg in get_flashed_messages() %}
+    <div class=" alert alert-light flash-message">
+    <button type="button" class="done" data-dismiss="alert">&times;</button>
+    {{ msg }}
+    </div>
+    {% endfor %}
+
+
 {% block page_content %}
 <div class="resume-main-div">
 
@@ -124,4 +136,6 @@
 </div>
 
 {% endblock %}
+</body>
 {% endblock %}
+
