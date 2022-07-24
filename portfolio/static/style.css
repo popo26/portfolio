@@ -361,6 +361,10 @@ h1, h2, h3, h4, h5, h6, p {
     line-height: 2;
 }
 
+.div-work h3 {
+    font-weight: 600;
+}
+
 .img-one {
     border-radius: 100%;
     width:29rem;
