@@ -14,12 +14,12 @@
 
 
 {% block page_content %}
-<div class="resume-main-div">
+<!-- <div class="resume-main-div">
 
     <div class="resume-contact-reference">
         <div class="contact-reference-div">
-        <!-- <a href="{{ url_for('static', filename='/images/resume.pdf')}}" target="blank"><button type='button'
-                class="btn btn-outline-dark btn-lg resume-button">Full Resume</button></a> -->
+        <a href="{{ url_for('static', filename='/images/resume.pdf')}}" target="blank"><button type='button'
+                class="btn btn-outline-dark btn-lg resume-button">Full Resume</button></a> 
 
         <a href="{{ url_for('resume_bp.download_resume')}}" target="blank"><button type='button'
             class="btn btn-outline-dark btn-lg resume-button">Full Resume</button></a>
@@ -59,11 +59,12 @@
         <p>+61420220974 <i class="fa-solid fa-phone"></i></p>
         <p>sharonmcharles@hotmail.com <i class="fa-solid fa-envelope-open"></i></p>
     </div>
-</div>
+</div> -->
 
     <div class="resume-work-education">
         <div class="work-education-div">
-
+            <a href="{{ url_for('resume_bp.download_resume')}}" target="blank"><button type='button'
+                class="btn btn-outline-dark btn-lg resume-button">Full Resume</button></a>
         <h1 class="resume-topic">EDUCATION</h1>
         <br>
         <h2 class="bold-title">Codingnomads</h2>
@@ -78,7 +79,7 @@
         <p>Version control with Git/GitHub.</p>
         <br>
         <p><a href="{{ url_for('main_bp.portfolio')}}">JKET Parent Registration Project </a>as Django capstone project</p>
-        <p>This Portfolio site as Flask capstone project</p>
+        <p><a href="{{ url_for('main_bp.portfolio')}}">FreeStuff </a>as Flask capstone project</p>
         <br>
         <br>
         <h2 class="bold-title">Udemy</h2>

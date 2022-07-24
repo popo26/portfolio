@@ -76,6 +76,10 @@ h1, h2, h3, h4, h5, h6, p {
     border-color: transparent;
 }
 
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+    border-color: transparent;
+}
+
 .name {
     font-family: 'Pacifico', cursive;
 }
@@ -256,17 +260,17 @@ h1, h2, h3, h4, h5, h6, p {
     margin-top: 4%;
 }
 
-.resume-contact-reference{
+/* .resume-contact-reference{
     left:0;
     width: 20%;
     position: absolute;
     text-align: right;
-}
+} */
 
-.contact-reference-div {
+/* .contact-reference-div {
     width: 100%;
     margin:auto;
-}
+} */
 
 .resume-button {
     font-family: 'Calibri';
@@ -282,10 +286,20 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .resume-work-education {
-    position: absolute;
-    right:0;
+    /* position: absolute;
+    right:0; */
     width:80%; 
+    margin:auto;
 }
+
+.resume-work-education a {
+    color:teal;
+}
+
+.resume-work-education a:hover {
+    color:#333;
+}
+
 .work-education-div {
     width:80%;
     margin:auto;
@@ -311,7 +325,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .course-title {
-    color:midnightblue;
+    /* color:midnightblue; */
     font-weight: bold;
 }
 
