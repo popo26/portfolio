@@ -14,7 +14,7 @@ def base():
 def landing():
     return render_template('main/landing.html')
 
-@main_bp.route('/index')
+@main_bp.route('/introduction')
 def index():
     return render_template("main/index.html")
 
