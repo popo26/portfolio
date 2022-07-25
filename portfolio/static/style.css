@@ -304,6 +304,15 @@ h1, h2, h3, h4, h5, h6, p {
     font-weight: 600;
 }
 
+.div-work a {
+    color:teal;
+}
+
+.div-work a:hover {
+    color:darkslategrey;
+}
+
+
 .img-one {
     border-radius: 100%;
     width:29rem;
