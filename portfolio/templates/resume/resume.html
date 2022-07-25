@@ -1,5 +1,6 @@
 {% extends 'base.html' %}
 
+{% block title %}{{ super() }}- Resume{% endblock %}
 
 {% block content %}
 <body style="background-image: url({{ url_for('main_bp.download_image', resource='background.jpg')}});">

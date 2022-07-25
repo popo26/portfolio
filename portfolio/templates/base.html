@@ -10,6 +10,8 @@
 <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css')}}" />
 <!-- font awesome -->
 <script src="https://kit.fontawesome.com/c63fcc0406.js" crossorigin="anonymous"></script>
+<!-- Favicon -->
+<link rel="icon" href="{{ url_for('main_bp.download_image', resource='favicon_ai.ico')}}">
 {% endblock %}
 
 {% block title %}{{ super() }}Ai Oakenfull {% endblock %}
