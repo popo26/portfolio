@@ -53,10 +53,9 @@ def create_app(config_name = "default"):
                 '*.fontawesome.com/',
                 'code.jquery.com',
                 'maxcdn.bootstrapcdn.com',   
-                'cdnjs.cloudflare.com',   
-                'https://kit.fontawesome.com/c63fcc0406.js', 
-                'https://nz.linkedin.com/in/ai-oakenfull-319297163',
-                'https://github.com/popo26',       
+                'cdnjs.cloudflare.com',  
+                'cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css' 
+                    
             ],
             'img-src': '*',
         }
