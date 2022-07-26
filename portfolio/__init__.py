@@ -31,7 +31,7 @@ def create_app(config_name = "default"):
     app.register_blueprint(resume_bp)
 
   
-    if app.config['HTTPS_REDIRECT'] == True:
+    if app.config['HTTPS_REDIRECT']:
         from flask_talisman import Talisman
         Talisman(app, content_security_policy={
                 'default-src': [
