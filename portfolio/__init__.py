@@ -53,7 +53,7 @@ def create_app(config_name = "default"):
             # allow images from anywhere, 
             #   including unicornify.pictures
             'img-src': '*',
-            'media-src': '*.amazonaws.com',
+            'media-src': '*',
         }
     )
 
