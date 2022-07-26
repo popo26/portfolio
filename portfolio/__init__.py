@@ -48,10 +48,12 @@ def create_app(config_name = "default"):
     Talisman(app, content_security_policy={
             'default-src': [
                 "'self'", 
-                '*.googleapis.com',
-                '*.gstatic.com',
-                '*.fontawesome.com',
-                
+                'https://fonts.googleapis.com',
+                'https://fonts.gstatic.com',
+                'https://fonts.googleapis.com/css2?family=Pacifico&family=Tajawal:wght@300;700&display=swap',
+                'https://kit.fontawesome.com/c63fcc0406.js',
+                '*.github.com',
+
                             
             ],
             'img-src': '*',
