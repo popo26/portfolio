@@ -53,7 +53,8 @@ def create_app(config_name = "default"):
                 '*.fontawesome.com/',
                 'code.jquery.com',
                 'maxcdn.bootstrapcdn.com',   
-                'cdnjs.cloudflare.com',            
+                'cdnjs.cloudflare.com',   
+                'https://kit.fontawesome.com/c63fcc0406.js',         
             ],
             'img-src': '*',
         }
