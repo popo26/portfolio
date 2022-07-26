@@ -48,7 +48,7 @@ def create_app(config_name = "default"):
     Talisman(app, content_security_policy={
             'default-src': [
                 "'self'",  
-                '/static/' ,
+                '/static/style.css' ,
                             
             ],
             'img-src': '*',
