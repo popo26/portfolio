@@ -48,7 +48,7 @@ def create_app(config_name = "default"):
     Talisman(app, content_security_policy={
             'default-src': [
                 "'self'",
-                "app.config['S3_BUCKET_NAME']",
+                "*",
                 
             ],
             # allow images from anywhere, 
