@@ -56,8 +56,8 @@ def create_app(config_name = "default"):
             'img-src': '*',
             'style-src': [
                 '\"self\"',
-                'maxcdn.bootstrapcdn.com',
-                '*.fontawesome.com/',
+                # 'maxcdn.bootstrapcdn.com',
+                # '*.fontawesome.com/',
             ],
     #          'script-src': [
     #             '\'self\'',
