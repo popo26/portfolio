@@ -53,8 +53,8 @@ class ProductionConfig(Config):
 
 class HerokuConfig(ProductionConfig):
     # HTTPS_REDIRECT = True if os.environ.get('DYNO') else False
-    HTTPS_REDIRECT = os.getenv('HTTPS_REDIRECT')
-    SECURE_SSL_REDIRECT=os.getenv('SECURE_SSL_REDIRECT')
+    HTTPS_REDIRECT = True if os.environ.get('HTTPS_REDIRECT') else False
+    SECURE_SSL_REDIRECT=True if os.environ.get('SECURE_SSL_REDIRECT') else False
 
     @classmethod
     def init_app(cls, app):
