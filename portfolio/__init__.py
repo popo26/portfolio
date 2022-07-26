@@ -43,18 +43,18 @@ def create_app(config_name = "default"):
     #         }
     #     )
 
-    if app.config['HTTPS_REDIRECT']:
-        from flask_talisman import Talisman
-        Talisman(app, content_security_policy={
-                'default-src': [
-                    "'self'",
-                    
-                ],
-                # allow images from anywhere, 
-                #   including unicornify.pictures
-                'img-src': '*'
-            }
-        )
+   
+    from flask_talisman import Talisman
+    Talisman(app, content_security_policy={
+            'default-src': [
+                "'self'",
+                
+            ],
+            # allow images from anywhere, 
+            #   including unicornify.pictures
+            'img-src': '*'
+        }
+    )
 
     return app
 
