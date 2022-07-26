@@ -52,8 +52,9 @@ class ProductionConfig(Config):
         app.logger.addHandler(mail_handler)
 
 class HerokuConfig(ProductionConfig):
-    HTTPS_REDIRECT = True if os.environ.get('DYNO') else False
-    SECURE_SSL_REDIRECT=True #experiment
+    # HTTPS_REDIRECT = True if os.environ.get('DYNO') else False
+    HTTPS_REDIRECT = os.getenv('HTTPS_REDIRECT')
+    SECURE_SSL_REDIRECT=os.getenv('SECURE_SSL_REDIRECT')
 
     @classmethod
     def init_app(cls, app):
