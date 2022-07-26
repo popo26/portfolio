@@ -52,12 +52,10 @@ def create_app(config_name = "default"):
                 '*.gstatic.com',
                 '*.fontawesome.com/',
                 'code.jquery.com',
-                'maxcdn.bootstrapcdn.com',
-
-                             
+                'maxcdn.bootstrapcdn.com',   
+                'cdnjs.cloudflare.com',            
             ],
             'img-src': '*',
-           
         }
     )
 
