@@ -54,7 +54,9 @@ def create_app(config_name = "default"):
                 'code.jquery.com',
                 'maxcdn.bootstrapcdn.com',   
                 'cdnjs.cloudflare.com',   
-                'https://kit.fontawesome.com/c63fcc0406.js',         
+                'https://kit.fontawesome.com/c63fcc0406.js', 
+                'https://nz.linkedin.com/in/ai-oakenfull-319297163',
+                'https://github.com/popo26',       
             ],
             'img-src': '*',
         }
