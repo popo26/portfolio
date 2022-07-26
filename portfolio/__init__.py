@@ -59,11 +59,11 @@ def create_app(config_name = "default"):
                 'maxcdn.bootstrapcdn.com',
                 '*.fontawesome.com/',
             ],
-             'script-src': [
-                '\'self\'',
-                'code.jquery.com',
-                'maxcdn.bootstrapcdn.com',
-                '*.fontawesome.com/',
+            #  'script-src': [
+            #     '\'self\'',
+            #     'code.jquery.com',
+            #     'maxcdn.bootstrapcdn.com',
+            #     '*.fontawesome.com/',
     ],
         }
     )
