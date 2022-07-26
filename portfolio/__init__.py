@@ -54,7 +54,8 @@ def create_app(config_name = "default"):
                 'code.jquery.com',
                 'maxcdn.bootstrapcdn.com',   
                 'cdnjs.cloudflare.com',  
-                'cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css' 
+                'cdn.fontawesome.com',
+                
                     
             ],
             'img-src': '*',
