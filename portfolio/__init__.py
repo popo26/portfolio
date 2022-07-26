@@ -51,20 +51,13 @@ def create_app(config_name = "default"):
                 '*.googleapis.com',
                 '*.gstatic.com',
                 '*.fontawesome.com/',
+                'code.jquery.com',
+                'maxcdn.bootstrapcdn.com',
+
                              
             ],
             'img-src': '*',
-            'style-src': [
-                '\"self\"',
-                # 'maxcdn.bootstrapcdn.com',
-                # '*.fontawesome.com/',
-            ],
-    #          'script-src': [
-    #             '\'self\'',
-    #             'code.jquery.com',
-    #             'maxcdn.bootstrapcdn.com',
-    #             '*.fontawesome.com/',
-    # ],
+           
         }
     )
 
