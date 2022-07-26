@@ -47,13 +47,12 @@ def create_app(config_name = "default"):
     from flask_talisman import Talisman
     Talisman(app, content_security_policy={
             'default-src': [
-                "'self'",   
+                "\'self\'",   
                 '*.amazonaws.com',            
             ],
             # allow images from anywhere, 
             #   including unicornify.pictures
             'img-src': '*',
-            'media-src': '*',
         }
     )
 
