@@ -10,3 +10,7 @@ dev_setup.sh
 server.crt
 server.csr
 server.key
+
+
+#Allow
+!static/background.jpg
