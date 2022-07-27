@@ -49,23 +49,23 @@ def create_app(config_name = "default"):
     #         }
     #     )
 
-    if app.config['HTTPS_REDIRECT'] == True:  
-        from flask_talisman import Talisman
-        Talisman(app, content_security_policy={
-                'default-src': [
-                    "\'self\'", 
-                    '*.googleapis.com',
-                    '*.gstatic.com',
-                    '*.fontawesome.com/',
-                    'code.jquery.com',
-                    'maxcdn.bootstrapcdn.com',   
-                    'cdnjs.cloudflare.com',  
-                    'cdn.fontawesome.com',
-                    
-                ],
-                'img-src': '*',
-            }
-        )
+   
+    from flask_talisman import Talisman
+    Talisman(app, content_security_policy={
+            'default-src': [
+                "\'self\'", 
+                '*.googleapis.com',
+                '*.gstatic.com',
+                '*.fontawesome.com/',
+                'code.jquery.com',
+                'maxcdn.bootstrapcdn.com',   
+                'cdnjs.cloudflare.com',  
+                'cdn.fontawesome.com',
+                
+            ],
+            'img-src': '*',
+        }
+    )
 
     return app
 
