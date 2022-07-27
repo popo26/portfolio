@@ -57,8 +57,7 @@
 
 {% block content %}
 <body style="background-image: url({{ url_for('main_bp.download_image', resource='background.jpg')}});">
-    <!-- <body style="background-image: url('images/background.jpg');"> -->
-          
+           
    
     <main>
     {% for msg in get_flashed_messages() %}
