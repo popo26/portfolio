@@ -71,10 +71,10 @@ def create_app(config_name = "default"):
     #         }
     #     )
 
-    if app.config['HTTPS_REDIRECT'] == True:
+    
    
-        from flask_talisman import Talisman
-        Talisman(app, content_security_policy=None)
+    from flask_talisman import Talisman
+    Talisman(app, content_security_policy=None)
 
     return app
 
