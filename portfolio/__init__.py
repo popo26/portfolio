@@ -30,7 +30,7 @@ def create_app(config_name = "default"):
     app.register_blueprint(contact_bp)
     app.register_blueprint(resume_bp)
 
-  
+    #This config didn't work for flask-talisman. Practice later.
     # if app.config['HTTPS_REDIRECT'] == True:
     #     from flask_talisman import Talisman
     #     Talisman(app, content_security_policy={
@@ -43,36 +43,12 @@ def create_app(config_name = "default"):
     #                 'maxcdn.bootstrapcdn.com',   
     #                 'cdnjs.cloudflare.com',  
     #                 'cdn.fontawesome.com',
-                    
     #             ],
     #             'img-src': '*',
     #         }
     #     )
 
-       
-
-    # if app.config['HTTPS_REDIRECT'] == True:
-   
-    #     from flask_talisman import Talisman
-    #     Talisman(app, content_security_policy={
-    #             'default-src': [
-    #                 "\'self\'", 
-    #                 '*.googleapis.com',
-    #                 '*.gstatic.com',
-    #                 '*.fontawesome.com/',
-    #                 'code.jquery.com',
-    #                 'maxcdn.bootstrapcdn.com',   
-    #                 'cdnjs.cloudflare.com',  
-    #                 'cdn.fontawesome.com',
-                
-                    
-    #             ],
-    #             'img-src': '*',
-    #         }
-    #     )
-
-    
-   
+    #Just to redirect HTTP to HTTPS below worked.
     from flask_talisman import Talisman
     Talisman(app, content_security_policy=None)
 
