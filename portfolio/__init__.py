@@ -61,6 +61,7 @@ def create_app(config_name = "default"):
                 'maxcdn.bootstrapcdn.com',   
                 'cdnjs.cloudflare.com',  
                 'cdn.fontawesome.com',
+                'aioakenfull-portfolio.s3.ap-southeast-2.amazonaws.com'
                 
             ],
             'img-src': '*',
