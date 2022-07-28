@@ -55,7 +55,7 @@ footer {
 
 h1, h2, h3, h4, h5, h6, p {
     font-family: 'Tajawal';
-    color:darkslategrey;
+    /* color:darkslategrey; */
     
 }
 
@@ -259,9 +259,28 @@ h1, h2, h3, h4, h5, h6, p {
     color:darkslategrey;
 }
 
+.school-logo {
+    border-radius: 100%;
+    width:100px;
+}
+
+.job-logo1 {
+    width:100px;
+    border-radius: 100%;
+}
+
+.job-logo2 {
+    width:100px;
+    border-radius: 60%;
+}
+
 .work-education-div {
     width:80%;
     margin:auto;
+}
+
+.work-education-div h4 {
+    line-height: 1.6;
 }
 
 .resume-topic {
@@ -300,8 +319,12 @@ h1, h2, h3, h4, h5, h6, p {
     line-height: 2;
 }
 
-.div-work h3 {
+.div-work h2 {
     font-weight: 600;
+}
+
+.div-work h4 {
+    line-height: 1.6;
 }
 
 .div-work a {
@@ -311,6 +334,10 @@ h1, h2, h3, h4, h5, h6, p {
 .div-work a:hover {
     color:darkslategrey;
 }
+
+/* .work-title {
+    font-weight: 600;
+} */
 
 
 .img-one {

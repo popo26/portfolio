@@ -7,14 +7,15 @@
     <h1 class="big-title">Portfolio</h1>
     <br>
 
-    <div class="div-work">
+    <div class="div-work" id="freestuff">
        
         <img class='img-one' src="{{ url_for('main_bp.download_image', resource='freestuff.jpg') }}" alt="freestuff">
         
-        <h3>FreeStuff App</h3>
-        <h4>Flask | HTML | CSS | Bootstrap</h4>
-        <p>As a capstone project for Flask Web Development course in CodingNomads, 
-            I was thrilled to be able to fully integrate most of the topics I learned 
+        <h2>FreeStuff App</h2>
+        <h5>Flask | HTML | CSS | Bootstrap</h5>
+        <h4 class="bold-title">Commerce App For Free Items</h4>
+        <h4>As a capstone project for Flask Web Development course in CodingNomads, 
+            I was excited to be able to fully integrate most of the topics I learned 
             in addition to some new extensions, libraries and technologies such as AWS S3 bucket 
             and search module etc. Whilst it was tough going, this project has given me 
             more confidence in knowing I can always find solutions to coding challenges 
@@ -22,19 +23,20 @@
             creating real-life applications. This application will be used for Japan 
             Kauri Education Trust in Auckland.
             <a href="https://github.com/popo26/Freestuff" target="blank"><i
-                class="fa-brands fa-github fa-2x "></i></a>
+                class="fa-brands fa-github fa-1x "></i></a>
             <a href="https://demo-freestuff.herokuapp.com/" target="blank">
-                <i class="fa-solid fa-globe fa-2x fa-brands"></i></a>
-        </p>
+                <i class="fa-solid fa-globe fa-1x fa-brands"></i></a>
+            </h4>
     </div>
     <br>
 
-    <div class="div-work">
+    <div class="div-work" id="'jket">
        
         <img class='img-two' src="{{ url_for('main_bp.download_image', resource='jket_logo.jpg') }}" alt="jket-logo">
-        <h3>JKET Parent Reg App</h3>
-        <h4>Django | HTML | CSS | Bootstrap</h4>
-        <p>Currently my daughter's Japanese language school 
+        <h2>JKET Parent Reg App</h2>
+        <h5>Django | HTML | CSS | Bootstrap</h4>
+        <h4 class="bold-title">Visitor Registration App</h4>
+        <h4>Currently my daughter's Japanese language school 
             <a href="http://jket.epizy.com/?i=1">Japan Kauri Education Trust </a>
             in Auckland are using a more traditional pen & paper system 
             when parents drop-off/pick-up their children. I built this web app 
@@ -45,37 +47,39 @@
             The live version is up and running.
         
             <a href="https://github.com/popo26/jket_visitor_registration_app_demo" target="blank"><i
-                class="fa-brands fa-github fa-2x "></i></a>
+                class="fa-brands fa-github fa-1x "></i></a>
             <a href="https://jket-rego-demo.herokuapp.com/en/interaction/" target="blank">
-                <i class="fa-solid fa-globe fa-2x fa-brands"></i></a>
+                <i class="fa-solid fa-globe fa-1x fa-brands"></i></a>
         </p>
     </div>
     <br>
 
     <div class="div-work">
         <img class='img-three' src="https://media.giphy.com/media/xT1Ra159XCvq33VvqM/giphy.gif" alt="remember-coco">
-        <h3>Remember Coco</h3>
-        <h4>Django | HTML | CSS | Bootstrap</h4>
-        <p>My long-lasting dream from the beginning of Django learning. 
+        <h2>Remember Coco</h2>
+        <h5>Django | HTML | CSS | Bootstrap</h5>
+        <h4 class="bold-title">Expense Tracking App</h4>
+        <h4>My long-lasting dream from the beginning of Django learning. 
             As a typical teenager who is often forgetful of certain things, 
             my daughter loves hanging out with friends and treasures her mobile phone. 
             Now Coco can use this mobile friendly app to keep track of her 
             repayments whenever she has borrowed money from me. 
         <a href="https://github.com/popo26/payment_tracking" target="blank"><i
-            class="fa-brands fa-github fa-2x "></i></a>
+            class="fa-brands fa-github fa-1x "></i></a>
         <a href="https://remember-coco.herokuapp.com/" target="blank">
-            <i class="fa-solid fa-globe fa-2x fa-brands"></i></a>
+            <i class="fa-solid fa-globe fa-1x fa-brands"></i></a>
         
-        </p>
+        </h4>
     </div>
     <br>
 
     <div class="div-work">
         
         <img class='img-four' src="{{ url_for('main_bp.download_image', resource='kikki_kopski.png') }}" alt="kikki-kopski">
-        <h3>Kikki Kopski</h3>
-        <h4>Flask | HTML | CSS | Bootstrap | HTML5UP</h4>
-        <p>I studied Metalsmithing at Savannah College of Art and Design in Savannah, 
+        <h2>Kikki Kopski</h2>
+        <h5>Flask | HTML | CSS | Bootstrap | HTML5UP</h5>
+        <h4 class="bold-title">Artist Website</h4>
+        <h4>I studied Metalsmithing at Savannah College of Art and Design in Savannah, 
             Georgia, USA back in 2002. I used to use <a href="https://www.wix.com/">wix.com </a> for my jewllery website 
             but with my freshly obtained web development skills, I can now save money 
             by creating my own website! For the template, I used HTML5UP and learned 
@@ -84,25 +88,26 @@
             This is a work in progress as I think of some more fun things to keep adding to the site.
 
             <a href="https://github.com/popo26/kikki_kopski_HTML5up" target="blank"><i
-                class="fa-brands fa-github fa-2x "></i></a>
-                <a href="https://kikkikopski.herokuapp.com/" target="blank"><i class="fa-solid fa-globe fa-2x fa-brands"></i></a>
-        </p>
+                class="fa-brands fa-github fa-1x "></i></a>
+                <a href="https://kikkikopski.herokuapp.com/" target="blank"><i class="fa-solid fa-globe fa-1x fa-brands"></i></a>
+            </h4>
     </div>
     <br>
 
         <div class="div-work">
            
             <img class='img-five' src="{{ url_for('main_bp.download_image', resource='exchange_rate.jpeg') }}" alt="exchange-rate">
-            <h3>NZD-JPY Exchange</h3>
-            <h4>Python3</h4>
-            <p>Being from Japan and living in New Zealand, I need to keep an eye on currency exchange 
+            <h2>NZD-JPY Exchange</h2>
+            <h5>Python3</h5>
+            <h4 class="bold-title">Alert Notification App</h4>
+            <h4>Being from Japan and living in New Zealand, I need to keep an eye on currency exchange 
                 rates to transfer money. As a mother of 3 children plus a dog, there are plenty of 
                 things to juggle throughout my day and exchange rates are the list thing I want to 
                 be keeping track of. So I created this mini app to help me do that with ease. 
                 It uses crontab in my Ubuntu and sends me an email when the currency rate goes below a certain price. 
             <a href="https://github.com/popo26/nzd-jpy-exchange-rate-alert-app" target="blank">
-                <i class="fa-brands fa-github fa-2x "></i></a>
-            </p>
+                <i class="fa-brands fa-github fa-1x "></i></a>
+            </h4>
             </div>
         </div>
         <br>
@@ -110,17 +115,18 @@
         <div class="div-work">
            
             <img class='img-six' src="{{ url_for('main_bp.download_image', resource='trademe.jpeg') }}" alt="trademe">
-            <h3>TradeMe</h3>
-            <h4>Python3 | Selenium</h4>
-            <p>While deciding how much we should be renting our rumpus room for, I created this 
+            <h2>TradeMe</h2>
+            <h5>Python3 | Selenium</h5>
+            <h4 class="bold-title">Task Automation App</h4>
+            <h4>While deciding how much we should be renting our rumpus room for, I created this 
                 program that automatically collects certain conditions of a rental property to 
                 a separate Google Form. It then lists them in a csv file so I can see the 
                 information immediately. By changing the search filter, I can search in different 
                 locations, or for purchasing property to find out the average price range, 
                 the number of rooms and bathrooms. 
             <a href="https://github.com/popo26/trademe_rental_research" target="blank">
-                <i class="fa-brands fa-github fa-2x "></i></a>
-            </p>
+                <i class="fa-brands fa-github fa-1x "></i></a>
+            </h4>
         </div>
 
 </div>
