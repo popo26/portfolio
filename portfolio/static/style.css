@@ -10,11 +10,12 @@
     padding:50px; 
 }
 
-.fa-solid {
+
+.page-up {
     color:#777;
 }
 
-.fa-solid:hover {
+.page-up:hover {
     color:#333;
 }
 
@@ -157,7 +158,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .landing-button {
-    margin: 2% auto 2%;
+    margin: 26px auto 10px;
     
     font-family: 'Tajawal';
 }
