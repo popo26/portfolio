@@ -6,6 +6,18 @@
     /* color:#777; */
 }
 
+.page-top {
+    padding:50px; 
+}
+
+.fa-solid {
+    color:#777;
+}
+
+.fa-solid:hover {
+    color:#333;
+}
+
 /* base.html */
 body {
     text-align: center;
@@ -137,7 +149,11 @@ h1, h2, h3, h4, h5, h6, p {
 
 
 .fa-brands {
-    color: darkslategrey;
+    color: #333;
+}
+
+.fa-brands:hover {
+    color: #777;
 }
 
 .landing-button {
@@ -148,10 +164,10 @@ h1, h2, h3, h4, h5, h6, p {
 
 .landing-button2 {
     color: white;
-    background-color: darkslategrey;
+    background-color: #333;
 }
 
-.landing-button2:hover {
+.landing-button2:hover{
     background-color: #777;
     color: pink;
 }
@@ -207,7 +223,7 @@ h1, h2, h3, h4, h5, h6, p {
     margin: 2% auto 2%;
     color: white;
     font-family: 'Tajawal';
-    background-color: darkslategrey;
+    background-color: #333;
 }
 
 .contact-button:hover {   
@@ -238,7 +254,7 @@ h1, h2, h3, h4, h5, h6, p {
     margin: 2% auto 2%;
     color: white;
     font-family: 'Tajawal';
-    background-color: darkslategrey;
+    background-color: #333;
 }
 
 .resume-button:hover {

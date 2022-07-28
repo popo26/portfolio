@@ -80,8 +80,10 @@
         <h4>Unit Testing(Unittest & Pytest).</h4>
         <h4>Version control with Git/GitHub.</h4>
         <br>
-        <h4><i class="fa-solid fa-circle-arrow-right fa-1x"></i><a href="{{ url_for('main_bp.portfolio')}}">  Django capstone project</a></h4>
-        <h4><i class="fa-solid fa-circle-arrow-right fa-1x"></i><a href="{{ url_for('main_bp.portfolio')}}">  Flask capstone project</a></h4>
+        <h4><i class="fa-solid fa-circle-arrow-right fa-1x"></i>
+            <strong><a href="{{ url_for('main_bp.portfolio', _anchor='jket')}}">  Django capstone project</a></strong></h4>
+        <h4><i class="fa-solid fa-circle-arrow-right fa-1x"></i>
+            <strong><a href="{{ url_for('main_bp.portfolio', _anchor='freestuff')}}">  Flask capstone project</a></strong></h4>
         <br>
         <br>
         <img class='school-logo' src="{{ url_for('main_bp.download_image', resource='udemy4.png') }}" alt="udemy">
@@ -116,7 +118,10 @@
         <img class="job-logo1" src="{{ url_for('main_bp.download_image', resource='fraedom.jpeg') }}" alt="fraedom">
         <img class="job-logo2" src="{{ url_for('main_bp.download_image', resource='visa.jpeg') }}" alt="visa">
         <h2 class="bold-title">Systems Support Engineer</h2>
-        <h4><i class="fa-solid fa-at"></i><a href="https://developer.visa.com/use-cases/partner-showcase/fraedom"> Fraedom Limited./Visa Inc.</a></h4>
+        <h4>
+            <strong><a href="https://developer.visa.com/use-cases/partner-showcase/fraedom">
+                <i class="fa-solid fa-at"></i> Fraedom Limited./Visa Inc.</a></strong>
+        </h4>
         <p>Mar 2013-Jan 2022</p>
         <br>
         <h4 class="bold-title">Roles: </h4>
@@ -128,18 +133,20 @@
         <br>
         <img class="job-logo1" src="{{ url_for('main_bp.download_image', resource='yoobee.png') }}" alt="yoobee">
         <h2 class="bold-title">IT Support Technician</h2>
-        <h4><i class="fa-solid fa-at"></i><a href="https://yoobee.ac.nz/"> Freelance Animation School (Current Yoobee College)</a></h4>
+        <h4><strong><a href="https://yoobee.ac.nz/"><i class="fa-solid fa-at"></i> Freelance Animation School (Current Yoobee College)</a></strong></h4>
         <p>Aug 2011-Mar 2012</p>
         <br>
         <h4 class="bold-title">Roles: </h4>
         <h4>Support for internal workstations, printers. Software/hardware/network troubleshooting.</h4>
         <h4>Active Directory, Domain Controller, WSUS, FSRM, Anti-vurus solution.</h4>
 
-        
+    <div class="page-top"><a href="#navigation"><i class="fa-solid fa-circle-chevron-up fa-5x"></i></i></a></div> 
     </div>
     <footer class="special_footer">© {{ year }} Ai Oakenful</footer>
     </div>
     
+    
+
 </div>
 
 {% endblock %}
