@@ -147,7 +147,13 @@ h1, h2, h3, h4, h5, h6, p {
     100% { transform: translate(1px, -2px) rotate(-1deg); }
   }
 
+.web {
+    color: #333;
+}
 
+.web:hover {
+    color: #777;
+}
 
 .fa-brands {
     color: #333;
