@@ -3,6 +3,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+#Python 3.8
+
 class Config():
     HTTPS_REDIRECT = False
 
