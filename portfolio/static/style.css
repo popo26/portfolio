@@ -420,6 +420,14 @@ h1, h2, h3, h4, h5, h6, p {
     padding:10px;
 }
 
+.img-eight {
+    border-radius: 100%;
+    width:26rem;
+    float: right;
+    margin: auto auto 20px auto;
+    padding:10px;
+}
+
 @media only screen and (max-width: 430px) {
     .img-one {
         border-radius: 100%;
@@ -484,6 +492,15 @@ h1, h2, h3, h4, h5, h6, p {
         max-width:300px;
         height:auto;
     } 
+
+    .img-eight {
+        border-radius: 100%;
+        width:100%;
+        max-width: 200px;
+        height:auto;
+        margin: auto auto 20px auto;
+        padding:10px;
+    }
 
    
      
