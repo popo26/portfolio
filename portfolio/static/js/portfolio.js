@@ -1,19 +1,33 @@
+
 function showContent(num) {
-    const mainDiv = document.querySelector(`.main${num}`)
-  mainDiv.addEventListener("click", function (e) {
-    e.preventDefault();
-    document.querySelector(`.c${num}`).style.display = "block";
-    document.querySelector(`.title${num}`).innerText = "";
-    document.querySelector(`.modal${num}`).style.backgroundColor = "transparent";
-    document.querySelector(`.modal${num}`).style.opacity = 1;
+    const modalDiv = document.querySelector(`.modal${num}`);
+    const cardBody = document.querySelector(`.c${num}`);
+    const centerTitle = document.querySelector(`.title${num}`);
+    modalDiv.addEventListener("click", function (e) {
 
-    mainDiv.style.backgroundColor = "transparent";
-    mainDiv.style.opacity = 1;
+      e.preventDefault();
+      if (cardBody.style.display === "block"){
+        cardBody.style.display = "none";
+        centerTitle.style.display = "block";
+        modalDiv.style.backgroundColor =
+          "#777";
+        modalDiv.style.opacity = 0.3;
+    } else {
+        cardBody.style.display = "block";
+        centerTitle.style.display = "none";
+        modalDiv.style.backgroundColor =
+          "transparent";
+        modalDiv.style.opacity = 1;
+        modalDiv.style.backgroundColor = "transparent";
+        modalDiv.style.opacity = 1;
+    }
+    });
+  }
+  
 
-  });
+
+const numOfItems = 12;
+for (let i = 1; i <= numOfItems; i++) {
+  showContent(i);
 }
 
-const numOfItems = 12
-for (let i=1;i<=numOfItems;i++){
-    showContent(i);
-}
