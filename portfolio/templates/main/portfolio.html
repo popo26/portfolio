@@ -7,183 +7,301 @@
     <h1 class="big-title">Portfolio</h1>
     <br>
 
-    <div class="div-work">
-       
-        <img class='img-eight' src="https://media.giphy.com/media/xKqnT7meXYNUkhjHP0/giphy.gif" alt="wine">
-        <h2>Wines I Don't Like</h2>
-                <a href="https://github.com/popo26/wine" target="blank"><i
-                    class="fa-brands fa-github fa-2x "></i></a>
-                <a href="https://wines.onrender.com/" target="blank">
-                    <i class="fas fa-globe fa-2x web"></i></a>
-               
-        <h5>Node.js | Express.js | Passport.js | EJS | CSS | Bootstrap | MongoDB | OAuth</h5>
-        <h4 class="bold-title">Wine Tracking App</h4>
-        <h4>My first project with Node.js. The database uses MongoDB hosted on Atlas. I kept buying the wines I didn't like
-            so this application was born. Simple yet so helpful during my bottle shopping. 
-            It will add a new entry as well as searching through existing lists. OAuth with Google and Facebook
-            are configured as well as email sign in. Passport.js is used for authentication.
-            </h4>
-    </div>
-    <br>
-   
+    <div class="portfolio-container">
 
-    <div class="div-work">
-       
-        <img class='img-seven' src="{{ url_for('main_bp.download_image', resource='whatsmyagendatoday.png') }}" alt="calendar-app">
-        <h2>Family Calendar</h2>
-        <a href="https://github.com/popo26/whatsmyagendatoday-render" target="blank"><i
-            class="fa-brands fa-github fa-2x "></i></a>
-        <a href="https://whatsmyagendatoday.onrender.com/" target="blank">
-            <i class="fas fa-globe fa-2x web"></i></a>
-        <h5>Django | HTML | CSS | SCSS | Bootstrap | Javascript</h4>
-        <h4 class="bold-title">Scheduling App</h4>
-        <h4>This application allows me and my family to schedule tasks as well as see whole family members' schedules at once.
-            Date specific todo items related to each member appear on today's date, so that on the right day those cards will 
-            remind the member what agenda he has. Then once it's complete, the card can be removed to create a sense of achievement!
-            Aside from the main scheduling tool, a lot of informative APIs such as Weather, News, Covid etc to make 
-            this application more fun.
-            This project integrated my newly obtained skill, Javascript, into Django, which is used in clock, baloons, 
-            and greeting in the navbar. Along the way, also SCSS is used. Please use test credentials (username:testuser, password test123456).
-        </p>
-    </div>
-
-
-
-    <div class="div-work" id="freestuff">
-       
-        <img class='img-one' src="{{ url_for('main_bp.download_image', resource='freestuff.jpg') }}" alt="freestuff">
-        
-        <h2>FreeStuff</h2>
-           
-                <a href="https://github.com/popo26/freestuff-demo-render" target="blank"><i
-                    class="fa-brands fa-github fa-2x "></i></a>
-                <a href="https://freestuff-demo.onrender.com/" target="blank">
-                    <i class="fas fa-globe fa-2x web"></i></a>
-               
-       
-       
-        <h5>Flask | HTML | CSS | Bootstrap |PostgreSQL | Amazon S3</h5>
-        <h4 class="bold-title">Commerce App For Free Items</h4>
-        <h4>As a capstone project for Flask Web Development course in CodingNomads, 
-            I was excited to be able to fully integrate most of the topics I learned 
-            in addition to some new extensions, libraries and technologies such as AWS S3 bucket 
-            and search module etc. Whilst it was tough going, this project has given me 
-            more confidence in knowing I can always find solutions to coding challenges 
-            that may arise. I wanted to build something to showcase my capability of 
-            creating real-life applications. This application will be used for Japan 
-            Kauri Education Trust in Auckland.
-        
-            </h4>
-    </div>
-    <br>
-
-    <div class="div-work" id="jket">
-       
-        <img class='img-two' src="{{ url_for('main_bp.download_image', resource='jket_logo.jpg') }}" alt="jket-logo">
-        <h2>JKET Parent Registration</h2>
-        <a href="https://github.com/popo26/jket-rego-demo-render" target="blank"><i
-            class="fa-brands fa-github fa-2x "></i></a>
-        <a href="https://jket-rego-demo.onrender.com/en/interaction/" target="blank">
-            <i class="fas fa-globe fa-2x web"></i></a>
-        <h5>Django | HTML | CSS | Bootstrap</h4>
-        <h4 class="bold-title">Visitor Registration App</h4>
-        <h4>Currently my daughter's Japanese language school 
-            <a href="http://jket.epizy.com/?i=1" target="blank">Japan Kauri Education Trust </a>
-            in Auckland are using a more traditional pen & paper system 
-            when parents drop-off/pick-up their children. I built this web app 
-            to try to introduce a more modern system and I used it as my  Django 
-            capstone project and JKET. This simple application allows JKET admins 
-            and parents/guardians to have a central location to record drop-offs/pick-ups 
-            as well as to check history logs - not to mention saving on paper cost! 
-            <a href="http://jket-rego.onrender.com/" target="blank">The live version </a>is up and running.
-        
-          
-        </p>
-    </div>
-    <br>
-
-    <div class="div-work">
-        <img class='img-three' src="https://media.giphy.com/media/xT1Ra159XCvq33VvqM/giphy.gif" alt="remember-coco">
-        <h2>Remember Coco</h2>
-        <a href="https://github.com/popo26/remember-coco-render" target="blank"><i
-            class="fa-brands fa-github fa-2x "></i></a>
-        <a href="https://remember-coco.onrender.com/" target="blank">
-            <i class="fas fa-globe fa-2x web"></i></a>
-        <h5>Django | HTML | CSS | Bootstrap</h5>
-        <h4 class="bold-title">Expense Tracking App</h4>
-        <h4>My long-lasting dream from the beginning of Django learning. 
-            As a typical teenager who is often forgetful of certain things, 
-            my daughter loves hanging out with friends and treasures her mobile phone. 
-            I developed this mobile-friendly app so 
-            she can digitally keep track of her 
-            repayments whenever she has borrowed money from me. 
-      
-        
-        </h4>
-    </div>
-    <br>
-
-    <div class="div-work">
-        
-        <img class='img-four' src="{{ url_for('main_bp.download_image', resource='kikki_kopski.png') }}" alt="kikki-kopski">
-        <h2>Kikki Kopski</h2>
-        <a href="https://github.com/popo26/kikkikopski-render" target="blank"><i
-            class="fa-brands fa-github fa-2x "></i></a>
-            <a href="https://kikkikopski.onrender.com/" target="blank"><i class="fas fa-globe fa-2x web"></i></a>
-        <h5>Flask | HTML | CSS | Bootstrap | HTML5UP</h5>
-        <h4 class="bold-title">Artist Website</h4>
-        <h4>I studied Metalsmithing at Savannah College of Art and Design in Savannah, 
-            Georgia, USA back in 2002. I used to use a paid service (<a href="https://www.wix.com/" target="blank">wix.com</a>) for my jewllery website 
-            but with my freshly obtained web development skills, I can now save money 
-            by creating my own website! For the template, I used HTML5UP and learned 
-            how to integrate 3rd party code base into my own website. It gave me a 
-            lot of great ideas for frontend development that I wouldn't have thought of. 
-            This is a work in progress as I continuously think of creative and improving ideas to keep adding to the site.
-
-     
-            </h4>
-    </div>
-    <br>
-
-        <div class="div-work">
-           
-            <img class='img-five' src="{{ url_for('main_bp.download_image', resource='exchange_rate.jpeg') }}" alt="exchange-rate">
-            <h2>NZD-JPY Exchange</h2>
-            <a href="https://github.com/popo26/nzd-jpy-exchange-rate-alert-app" target="blank">
-                <i class="fa-brands fa-github fa-2x "></i></a>
-            <h5>Python3</h5>
-            <h4 class="bold-title">Alert Notification App</h4>
-            <h4>Being from Japan and living in New Zealand, I need to keep an eye on currency exchange 
-                rates to transfer money. As a mother of 3 children plus a dog, there are plenty of 
-                things to juggle throughout my day and exchange rates are the list thing I want to 
-                be keeping track of. To facilitate the process and keep me up to date, 
-                I created this mini-app using crontab in my Ubuntu environment and sends me an email 
-                when the currency rate goes below certain price criteria.
-          
-            </h4>
+        <div class="card individual-portfolio">
+            <div class="modal-container modal1 modal-setup">
+                <img src="https://media.giphy.com/media/rFAqmjb0w1NRiAws36/giphy.gif" class="card-img-top" alt="api"
+                    style="width:200px">
+                <div class="centered title1">JS</div>
+            </div>
+            <div class="card-body c1">
+                <h2>API Documentation </h2>
+                <a href="https://github.com/popo26/API-Documentation" target="blank">
+                    <i class="fa-brands fa-github fa-2x "></i></a>
+                <h5>JavaScript | HTML | Webpack | Bootstrap </h5>
+                <h4 class="bold-title">API Documentation & Test App</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
             </div>
         </div>
-        <br>
 
-        <div class="div-work">
-           
-            <img class='img-six' src="https://media.giphy.com/media/l46Cy1rHbQ92uuLXa/giphy.gif" alt="trademe">
-            <h2>TradeMe Rental Search</h2>
-            <a href="https://github.com/popo26/trademe_rental_research" target="blank">
-                <i class="fa-brands fa-github fa-2x "></i></a>
-            <h5>Python3 | Selenium</h5>
-            <h4 class="bold-title">Task Automation App</h4>
-            <h4>While deciding how much we should be renting our rumpus room for, I created this 
-                program that automatically collects certain conditions of a rental property to 
-                a separate Google Form. It then lists them in a csv file so I can see the 
-                information immediately. By changing the search filter, I can search in different 
-                locations, or for purchasing property to find out the average price range, 
-                the number of rooms and bathrooms. 
-    
-            </h4>
+
+        <div class="card  individual-portfolio">
+            <div class="modal-container modal2 modal-setup">
+
+                <img src="https://media.giphy.com/media/l0HUnvk2J2yYpJG4U/giphy.gif" class="card-img-top"
+                    alt="luise-vuitton">
+                <div class="centered title2">ExpressJS</div>
+
+            </div>
+            <div class="card-body c2">
+                <h2>Luise Vuitton</h2>
+                <a href="https://github.com/popo26/ECommerce-Express" target="blank">
+                    <i class="fa-brands fa-github fa-2x "></i></a>
+                <h5>ExpressJS | JavaScript | HTML | CSS | Bootstrap</h5>
+                <h4 class="bold-title">ECommerce App</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+            </div>
+        </div>
+        <div class="card  individual-portfolio">
+            <div class="modal-container modal3 modal-setup">
+
+                <img src="https://media.giphy.com/media/loXcBvAjR0W9Omrm7O/giphy-downsized-large.gif"
+                    class="card-img-top" alt="carousel">
+                <div class="centered title3">React</div>
+
+            </div>
+            <div class="card-body c3">
+                <h2>Inspiration Search</h2>
+                <a href="https://github.com/popo26/React-Carousel" target="blank">
+                    <i class="fa-brands fa-github fa-2x "></i></a>
+                <h4 class="bold-title">Image Carousel App</h4>
+                <h5>ReactJS | HTML | CSS </h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+            </div>
+        </div>
+        <div class="card  individual-portfolio">
+            <div class="modal-container modal4 modal-setup">
+
+                <img src="{{ url_for('main_bp.download_image', resource='trivia.PNG') }}" class="card-img-top trivia"
+                    alt="trivia">
+                <div class="centered title4">React</div>
+
+            </div>
+            <div class="card-body c4">
+                <h2>Trivia</h2>
+                <a href="https://github.com/popo26/React-Accordion/tree/main" target="blank">
+                    <i class="fa-brands fa-github fa-2x "></i></a>
+                <h4 class="bold-title">Game App</h4>
+                <h5>ReactJS | HTML | CSS </h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+            </div>
         </div>
 
-        <div class="page-top"><a href="#navigation"><i class="fa-solid fa-circle-chevron-up fa-5x page-up"></i></i></a></div>
+
+        <div class="card individual-portfolio">
+            <div class="modal-container modal5 modal-setup">
+
+                <img src="https://media.giphy.com/media/xKqnT7meXYNUkhjHP0/giphy.gif" class="card-img-top" alt="wine">
+                <div class="centered title5">EJS</div>
+
+            </div>
+            <div class="card-body c5">
+                <h2>Wines I Don't Like</h2>
+                <a href="https://github.com/popo26/wine" target="blank"><i class="fa-brands fa-github fa-2x "></i></a>
+                <a href="https://wines.onrender.com/" target="blank">
+                    <i class="fas fa-globe fa-2x web"></i></a>
+
+                <h5>NodeJS | ExpressJS | PassportJS | EJS | Bootstrap | MongoDB | OAuth</h5>
+                <h4 class="bold-title">Wine Tracking App</h4>
+                <p class="card-text">My first project with Node.js. The database uses MongoDB hosted on Atlas. I kept
+                    buying the wines I didn't
+                    like so this application was born. Simple yet so helpful during my bottle shopping.
+                    It will add a new entry as well as searching through existing lists. OAuth with Google and Facebook
+                    are configured as well as email sign in. Passport.js is used for authentication.</p>
+            </div>
+        </div>
+        <div class="card  individual-portfolio">
+            <div class="modal-container modal6 modal-setup">
+
+                <img src="{{ url_for('main_bp.download_image', resource='whatsmyagendatoday.png') }}"
+                    class="card-img-top" alt="calendar-app">
+                <div class="centered title6">Django</div>
+
+            </div>
+
+            <div class="card-body c6">
+                <h2>Family Calendar</h2>
+                <a href="https://github.com/popo26/whatsmyagendatoday-render" target="blank"><i
+                        class="fa-brands fa-github fa-2x "></i></a>
+                <a href="https://whatsmyagendatoday.onrender.com/" target="blank">
+                    <i class="fas fa-globe fa-2x web"></i></a>
+                <h5>Django | HTML | CSS | SCSS | Bootstrap | Javascript</h4>
+                    <h4 class="bold-title">Scheduling App</h4>
+                    <p class="card-text">This application allows me and my family to schedule tasks as well as see whole
+                        family members'
+                        schedules at once.
+                        Date specific todo items related to each member appear on today's date, so that on the right day
+                        those
+                        cards will
+                        remind the member what agenda he has. Then once it's complete, the card can be removed to create
+                        a sense
+                        of achievement!
+                        Aside from the main scheduling tool, a lot of informative APIs such as Weather, News, Covid etc
+                        to make
+                        this application more fun.
+                        This project integrated my newly obtained skill, Javascript, into Django, which is used in
+                        clock,
+                        baloons,
+                        and greeting in the navbar. Along the way, also SCSS is used. Please use test credentials
+                        (username:testuser, password test123456).</p>
+            </div>
+        </div>
+        <div class="card  individual-portfolio">
+            <div class="modal-container modal7 modal-setup">
+
+                <img src="{{ url_for('main_bp.download_image', resource='freestuff.jpg') }}" class="card-img-top"
+                    alt="freestuff">
+                <div class="centered title7">Flask</div>
+
+            </div>
+
+            <div class="card-body c7">
+                <h2>FreeStuff</h2>
+
+                <a href="https://github.com/popo26/freestuff-demo-render" target="blank"><i
+                        class="fa-brands fa-github fa-2x "></i></a>
+                <a href="https://freestuff-demo.onrender.com/" target="blank">
+                    <i class="fas fa-globe fa-2x web"></i></a>
+
+
+
+                <h5>Flask | HTML | CSS | Bootstrap |PostgreSQL | Amazon S3</h5>
+                <h4 class="bold-title">Commerce App For Free Items</h4>
+                <p class="card-text">As a capstone project for Flask Web Development course in CodingNomads,
+                    I was excited to be able to fully integrate most of the topics I learned
+                    in addition to some new extensions, libraries and technologies such as AWS S3 bucket
+                    and search module etc. Whilst it was tough going, this project has given me
+                    more confidence in knowing I can always find solutions to coding challenges
+                    that may arise. I wanted to build something to showcase my capability of
+                    creating real-life applications. This application will be used for Japan
+                    Kauri Education Trust in Auckland.</p>
+            </div>
+        </div>
+        <div class="card  individual-portfolio">
+            <div class="modal-container modal8 modal-setup">
+
+                <img src="{{ url_for('main_bp.download_image', resource='jket_logo.jpg') }}" class="card-img-top"
+                    alt="jket-logo">
+                <div class="centered title8">Django</div>
+
+            </div>
+            <div class="card-body c8">
+                <h2>JKET Parent Registration</h2>
+                <a href="https://github.com/popo26/jket-rego-demo-render" target="blank"><i
+                        class="fa-brands fa-github fa-2x "></i></a>
+                <a href="https://jket-rego-demo.onrender.com/en/interaction/" target="blank">
+                    <i class="fas fa-globe fa-2x web"></i></a>
+                <h5>Django | HTML | CSS | Bootstrap</h4>
+                    <h4 class="bold-title">Visitor Registration App</h4>
+                    <p class="card-text">Currently my daughter's Japanese language school
+                        <a href="http://jket.epizy.com/?i=1" target="blank">Japan Kauri Education Trust </a>
+                        in Auckland are using a more traditional pen & paper system
+                        when parents drop-off/pick-up their children. I built this web app
+                        to try to introduce a more modern system and I used it as my Django
+                        capstone project and JKET. This simple application allows JKET admins
+                        and parents/guardians to have a central location to record drop-offs/pick-ups
+                        as well as to check history logs - not to mention saving on paper cost!
+                        <a href="http://jket-rego.onrender.com/" target="blank">The live version </a>is up and running.
+                    </p>
+            </div>
+        </div>
+        <div class="card individual-portfolio">
+            <div class="modal-container modal9 modal-setup">
+
+                <img src="https://media.giphy.com/media/xT1Ra159XCvq33VvqM/giphy.gif" class="card-img-top"
+                    alt="remember-coco">
+                <div class="centered title9">Django</div>
+
+            </div>
+            <div class="card-body c9">
+                <h2>Remember Coco</h2>
+                <a href="https://github.com/popo26/remember-coco-render" target="blank"><i
+                        class="fa-brands fa-github fa-2x "></i></a>
+                <a href="https://remember-coco.onrender.com/" target="blank">
+                    <i class="fas fa-globe fa-2x web"></i></a>
+                <h5>Django | HTML | CSS | Bootstrap</h5>
+                <h4 class="bold-title">Expense Tracking App</h4>
+                <p class="card-text">My long-lasting dream from the beginning of Django learning.
+                    As a typical teenager who is often forgetful of certain things,
+                    my daughter loves hanging out with friends and treasures her mobile phone.
+                    I developed this mobile-friendly app so
+                    she can digitally keep track of her
+                    repayments whenever she has borrowed money from me.</p>
+            </div>
+        </div>
+        <div class="card  individual-portfolio">
+            <div class="modal-container modal10 modal-setup">
+
+                <img src="{{ url_for('main_bp.download_image', resource='kikki_kopski.png') }}"
+                    class="card-img-top kikki" alt="kikki-kopski">
+                <div class="centered title10">Flask</div>
+
+            </div>
+            <div class="card-body c10">
+                <h2>Kikki Kopski</h2>
+                <a href="https://github.com/popo26/kikkikopski-render" target="blank"><i
+                        class="fa-brands fa-github fa-2x "></i></a>
+                <a href="https://kikkikopski.onrender.com/" target="blank"><i class="fas fa-globe fa-2x web"></i></a>
+                <h5>Flask | HTML | CSS | Bootstrap | HTML5UP</h5>
+                <h4 class="bold-title">Artist Website</h4>
+                <p class="card-text">I studied Metalsmithing at Savannah College of Art and Design in Savannah,
+                    Georgia, USA back in 2002. I used to use a paid service (<a href="https://www.wix.com/"
+                        target="blank">wix.com</a>) for my jewllery website
+                    but with my freshly obtained web development skills, I can now save money
+                    by creating my own website! For the template, I used HTML5UP and learned
+                    how to integrate 3rd party code base into my own website. It gave me a
+                    lot of great ideas for frontend development that I wouldn't have thought of.
+                    This is a work in progress as I continuously think of creative and improving ideas to keep adding to
+                    the
+                    site.</p>
+            </div>
+        </div>
+        <div class="card  individual-portfolio">
+            <div class="modal-container modal11 modal-setup">
+
+                <img src="{{ url_for('main_bp.download_image', resource='exchange_rate.jpeg') }}" class="card-img-top"
+                    alt="exchange-rate">
+                <div class="centered title11">Python3</div>
+
+            </div>
+            <div class="card-body c11">
+                <h2>NZD-JPY Exchange</h2>
+                <a href="https://github.com/popo26/nzd-jpy-exchange-rate-alert-app" target="blank">
+                    <i class="fa-brands fa-github fa-2x "></i></a>
+                <h5>Python3</h5>
+                <h4 class="bold-title">Alert Notification App</h4>
+                <p class="card-text">Being from Japan and living in New Zealand, I need to keep an eye on currency
+                    exchange
+                    rates to transfer money. As a mother of 3 children plus a dog, there are plenty of
+                    things to juggle throughout my day and exchange rates are the list thing I want to
+                    be keeping track of. To facilitate the process and keep me up to date,
+                    I created this mini-app using crontab in my Ubuntu environment and sends me an email
+                    when the currency rate goes below certain price criteria.</p>
+            </div>
+        </div>
+        <div class="card  individual-portfolio">
+            <div class="modal-container modal12 modal-setup">
+
+                <img src="https://media.giphy.com/media/l46Cy1rHbQ92uuLXa/giphy.gif" class="card-img-top" alt="trademe">
+                <div class="centered title12">Selenium</div>
+
+            </div>
+            <div class="card-body c12">
+                <h2>TradeMe Rental Search</h2>
+                <a href="https://github.com/popo26/trademe_rental_research" target="blank">
+                    <i class="fa-brands fa-github fa-2x "></i></a>
+                <h5>Python3 | Selenium</h5>
+                <h4 class="bold-title">Task Automation App</h4>
+                <p class="card-text">While deciding how much we should be renting our rumpus room for, I created this
+                    program that automatically collects certain conditions of a rental property to
+                    a separate Google Form. It then lists them in a csv file so I can see the
+                    information immediately. By changing the search filter, I can search in different
+                    locations, or for purchasing property to find out the average price range,
+                    the number of rooms and bathrooms.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="page-top"><a href="#navigation"><i class="fa-solid fa-circle-chevron-up fa-5x page-up"></i></i></a>
+    </div>
 
 </div>
+<script src="../static/js/portfolio.js" type="module"></script>
+
 {% endblock %}
