@@ -166,19 +166,19 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .landing-button {
-    margin: 26px auto 10px;
-    
+    margin: 26px auto 10px; 
     font-family: 'Tajawal';
 }
 
 .landing-button2 {
     color: white;
     background-color: #333;
+    padding-top:16px;
 }
 
 .landing-button2:hover{
-    background-color: #777;
-    color: pink;
+    background-color: rgb(245, 61, 5);
+    color: #ffffff;
 }
 
 /* index.html */
@@ -208,25 +208,6 @@ h1, h2, h3, h4, h5, h6, p {
     font-family: 'Tajawal';
    
 }
-
-.attribution {
-    position:absolute;
-    right: 0;
-    bottom: 3%;
-    width: 100%;
-    color: #716F81;
-    font-family: 'Calibri';
-}
-
-.attribution-link {
-    color:#777;
-    font-weight: lighter;
-}
-
-.attribution-link:hover {
-    color:#87AAAA;
-}
-
 
 .contact-button {   
     margin: 2% auto 2%;
@@ -308,6 +289,7 @@ h1, h2, h3, h4, h5, h6, p {
     line-height: 1.6;
 }
 
+
 .resume-topic {
     color: #97C4B8;    
 }
@@ -360,9 +342,6 @@ h1, h2, h3, h4, h5, h6, p {
     color:darkslategrey;
 }
 
-/* .work-title {
-    font-weight: 600;
-} */
 
 
 .img-one {
@@ -440,7 +419,6 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .individual-portfolio{
-    /* background-color: #f1f1f1; */
     padding: 10px;
     font-size: 20px;
     margin:4px;
@@ -453,12 +431,10 @@ h1, h2, h3, h4, h5, h6, p {
 .modal-setup {
     background-color:#333;
     opacity:0.3;
-    /* position:relative; */
     top:0;
     bottom:0;
     left:0;
     right:0;
-    /* border:4px solid white; */
 }
 
 .modal-setup:hover{
@@ -481,7 +457,6 @@ h1, h2, h3, h4, h5, h6, p {
 .modal-container {
     position: relative;
     text-align: center;
-    /* color:rgb(65, 240, 240);   */
     color:teal;  
     border-radius: 20px;
 }
@@ -490,7 +465,6 @@ h1, h2, h3, h4, h5, h6, p {
     color:aqua
 }
 
-/* Centered text */
 .centered {
     position: absolute;
     top: 50%;
@@ -498,7 +472,6 @@ h1, h2, h3, h4, h5, h6, p {
     transform: translate(-50%, -50%);
     font-size: 80px;
     font-family:'Lilita One', sans-serif;
-    /* background-color: #777; */
     display:block;
   }
 

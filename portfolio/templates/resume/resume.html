@@ -20,91 +20,120 @@
 
         <div class="resume-work-education">
             <div class="work-education-div">
-
                 <a href="{{ url_for('resume_bp.download_resume')}}" target="blank"><button type='button'
-                    class="btn btn-outline-dark btn-lg resume-button">Donwload Full Resume</button></a>
+                        class="btn btn-outline-dark btn-lg resume-button">Donwload Full Resume</button></a>
 
 
                 <h1 class="resume-topic">EMPLOYMENT</h1>
                 <br>
-                <img class="job-logo1" src="{{ url_for('main_bp.download_image', resource='skycity.png') }}"
-                    alt="skycity-logo">
-                <h2 class="bold-title">Web Developer</h2>
-                <h4>
-                    <strong><a href="https://skycity.co.nz/">
-                            <i class="fa-solid fa-at"></i> SKYCITY Entertainment Group:</a></strong>
-                </h4>
-                <p>Feb 2023 - Aug 2023</p>
-                <br>
-                <h4 class="bold-title">Roles: </h4>
-                <h4>Reprocess/Troubleshoot of BizTalk jobs with Dynamics365 and MS SQL.</h4>
-                <h4>Performed analysis on Keyless application API to validate actual daily usage of the application in
-                    Adelaide EOS hotel(Kusto query).</h4>
-                <h4>Engaged with clients to collect, defined, translated user requirements into implementation plans and
-                    optimize the current chatbot queries. Deployed it to UAT environment (Power Platform/CICD
-                    Pipeline/Azure DevOps).</h4>
+                <div class="work-education-item">
+                    <div>
+                        <img class="job-logo1" src="{{ url_for('main_bp.download_image', resource='skycity.png') }}"
+                            alt="skycity-logo">
+                    </div>
+                    <section>
+                        <h2 class="bold-title">Web Developer</h2>
+                        <h4>
+                            <strong><a href="https://skycity.co.nz/">
+                                    <i class="fa-solid fa-at"></i> SKYCITY Entertainment Group:</a></strong>
+                        </h4>
+                        <p>Feb 2023 - Aug 2023</p>
+                    </section>
+                    <br>
 
+                    <h4>Reprocess/Troubleshoot of BizTalk jobs with Dynamics365 and MS SQL.</h4>
+                    <h4>Performed analysis on Keyless application API to validate actual daily usage of the
+                        application
+                        in
+                        Adelaide EOS hotel(Kusto query).</h4>
+                    <h4>Engaged with clients to collect, defined, translated user requirements into implementation
+                        plans
+                        and
+                        optimize the current chatbot queries. Deployed it to UAT environment (Power Platform/CICD
+                        Pipeline/Azure DevOps).</h4>
+                </div>
 
                 <br>
                 <br>
-                <img class="job-logo1" src="{{ url_for('main_bp.download_image', resource='jket_logo.jpg') }}"
-                    alt="jket-logo">
-                <h2 class="bold-title">Full Stack Web Developer [Volunteer]</h2>
-                <h4>
-                    <strong><a href="https://www.facebook.com/inchJ/">
-                            <i class="fa-solid fa-at"></i> Japan Kauri Education Trust</a></strong>
-                </h4>
-                <p>May 2022 - Current</p>
+                <div class="work-education-item">
+                    <div>
+                        <img class="job-logo1" src="{{ url_for('main_bp.download_image', resource='jket_logo.jpg') }}"
+                            alt="jket-logo">
+                    </div>
+                    <section>
+                        <h2 class="bold-title">Full Stack Web Developer [Volunteer]</h2>
+                        <h4>
+                            <strong><a href="https://www.facebook.com/inchJ/">
+                                    <i class="fa-solid fa-at"></i> Japan Kauri Education Trust</a></strong>
+                        </h4>
+                        <p>May 2022 - Current</p>
+                    </section>
+                    <br>
+                    <div class="work-education-content">
+                        <h4>Designed and built whole application with Django/PostgreSQL/Bootstrap/CSS.</h4>
+                        <h4>Customising the application in liaison with admin staff in response to their user
+                            experience.</h4>
+                        <h4>Migrated data and changed hosting providers from Heroku to Render.</h4>
+                        <h4><i class="fa-solid fa-circle-arrow-right fa-1x"></i>
+                            <strong><a href="{{ url_for('main_bp.portfolio', _anchor='jket')}}"> More
+                                    details</a></strong>
+                        </h4>
+                    </div>
+                </div>
                 <br>
-                <h4 class="bold-title">Roles: </h4>
-                <h4>Designed and built whole application with Django/PostgreSQL/Bootstrap/CSS.</h4>
-                <h4>Customising the application in liaison with admin staff in response to their user experience.</h4>
-                <h4>Migrated data and changed hosting providers from Heroku to Render.</h4>
+                <br>
+                <div class="work-education-item">
+                    <div>
+                        <img class="job-logo1" src="{{ url_for('main_bp.download_image', resource='fraedom.jpeg') }}"
+                            alt="fraedom">
+                        <img class="job-logo2" src="{{ url_for('main_bp.download_image', resource='visa.jpeg') }}"
+                            alt="visa">
+                    </div>
+                    <section>
+                        <h2 class="bold-title">Systems Support Engineer</h2>
+                        <h4>
+                            <strong><a href="https://www.visa.co.nz/">
+                                    <i class="fa-solid fa-at"></i> Fraedom Limited./Visa Inc.</a></strong>
+                        </h4>
+                        <p>Mar 2012-Jan 2022</p>
+                    </section>
+                    <br>
+                    <h4>Global Support for internal servers, workstations, mobiles, tablets, printers, audio
+                        devices.</h4>
+                    <h4>Active Directory, Domain Controllers, WSUS, DNS, DHCP, File Servers, Exchange Server,
+                        VMware,
+                        Hyper-V. </h4>
+                    <h4>Microsoft Windows 2k~10, Server 2008~2019, SQL Server, SharePoint, Jira, Confluence.</h4>
+                    <h4>In charge of setup/maintenance of MDT for global OS deployment.</h4>
+                </div>
 
-                <h4><i class="fa-solid fa-circle-arrow-right fa-1x"></i>
-                    <strong><a href="{{ url_for('main_bp.portfolio', _anchor='jket')}}"> More details</a></strong></h4>
                 <br>
                 <br>
-                <img class="job-logo1" src="{{ url_for('main_bp.download_image', resource='fraedom.jpeg') }}"
-                    alt="fraedom">
-                <img class="job-logo2" src="{{ url_for('main_bp.download_image', resource='visa.jpeg') }}" alt="visa">
-                <h2 class="bold-title">Systems Support Engineer</h2>
-                <h4>
-                    <strong><a href="https://www.visa.co.nz/">
-                            <i class="fa-solid fa-at"></i> Fraedom Limited./Visa Inc.</a></strong>
-                </h4>
-                <p>Mar 2012-Jan 2022</p>
-                <br>
-                <h4 class="bold-title">Roles: </h4>
-                <h4>Global Support for internal servers, workstations, mobiles, tablets, printers, audio devices.</h4>
-                <h4>Active Directory, Domain Controllers, WSUS, DNS, DHCP, File Servers, Exchange Server, VMware,
-                    Hyper-V. </h4>
-                <h4>Microsoft Windows 2k~10, Server 2008~2019, SQL Server, SharePoint, Jira, Confluence.</h4>
-                <h4>In charge of setup/maintenance of MDT for global OS deployment.</h4>
-                <br>
-                <br>
-                <img class="job-logo1" src="{{ url_for('main_bp.download_image', resource='yoobee.png') }}"
-                    alt="yoobee">
-                <h2 class="bold-title">IT Support Technician</h2>
-                <h4><strong><a href="https://yoobee.ac.nz/"><i class="fa-solid fa-at"></i> Freelance Animation School
-                            (Current Yoobee College)</a></strong></h4>
-                <p>Aug 2011-Mar 2012</p>
-                <br>
-                <h4 class="bold-title">Roles: </h4>
-                <h4>Support for internal workstations, printers. Software/hardware/network troubleshooting.</h4>
-                <h4>Active Directory, Domain Controller, WSUS, FSRM, Anti-vurus solution.</h4>
+                <div class="work-education-item">
+                    <div>
+                        <img class="job-logo1" src="{{ url_for('main_bp.download_image', resource='yoobee.png') }}"
+                            alt="yoobee">
+                    </div>
+                    <section>
+                        <h2 class="bold-title">IT Support Technician</h2>
+                        <h4><strong><a href="https://yoobee.ac.nz/"><i class="fa-solid fa-at"></i> Freelance Animation
+                                    School
+                                    (Current Yoobee College)</a></strong></h4>
+                        <p>Aug 2011-Mar 2012</p>
+                    </section>
+                    <br>
+                    <h4>Support for internal workstations, printers. Software/hardware/network troubleshooting.</h4>
+                    <h4>Active Directory, Domain Controller, WSUS, FSRM, Anti-vurus solution.</h4>
+                </div>
                 <br>
                 <br>
                 <hr class="divider">
                 <br>
                 <br>
 
-
-
-
-
                 <h1 class="resume-topic">EDUCATION</h1>
-
+                <br>
+                <br>
                 <img class='school-logo' src="{{ url_for('main_bp.download_image', resource='iod.png') }}"
                     alt="iod-logo">
                 <h2 class="bold-title">Institute of Data</h2>
@@ -112,10 +141,9 @@
                         Programme</a></h3>
                 <p>July 2023 - Expected Jan 2024 </p>
                 <br>
-                <h4 class="bold-title">Acquired Skills: </h4>
                 <h4>Software Development Principles.</h4>
                 <h4>JavaScript, Node.js, Socket.io, React.js. </h4>
-                <h4>MongoDB, MySQL, Redis.</h4>
+                <h4>MongoDB, MySQL, Redis. Figma. Swagger.</h4>
                 <h4>API Development, CI/CD, Docker, EC2, Beanstalk.</h4>
                 <br>
 
@@ -126,7 +154,6 @@
                         target="blank">The Complete 2022 Web Development Bootcamp</a></h3>
                 <p>Aug 2022 - Sep 2022 </p>
                 <br>
-                <h4 class="bold-title">Acquired Skills: </h4>
                 <h4>Javascript ES6, The Document Object Model, JQuery.</h4>
                 <h4>Node.js for Backend Web Development with Express.js and EJS </h4>
                 <h4>React.js for Frontend Web Development.</h4>
@@ -138,7 +165,6 @@
                         Flask Web Development</a></h3>
                 <p>Feb 2022 - JUL 2022</p>
                 <br>
-                <h4 class="bold-title">Acquired Skills:</h4>
                 <h4>Django/Flask for Backend Web Development.</h4>
                 <h4>Heroku/Azure deployment.</h4>
                 <h4>SQL basics/SQLite3/PostgreSQL.</h4>
@@ -160,21 +186,10 @@
                         Days of Code: The Complete Python Pro Bootcamp</a></h3>
                 <p>Jul 2021 - Feb 2022 </p>
                 <br>
-                <h4 class="bold-title">Acquired Skills: </h4>
                 <h4>List, Dictionary, OOP, Beautiful Soup, Selenium, APIs, REST APIs.</h4>
                 <h4>Flask for Backend Web Development.</h4>
                 <h4>HTML/CSS/Bootstrap for Frontend Web Development.</h4>
-                <!-- <br>
-        <br>
-        <h2>AIMS I.T. Academy</h2>
-        <h3>Diploma in System Administration</h3>
-        <p> Jan 2011- Sep 2011</p>
-        <br>
-        <p>Formal Certifications:</p>
-        <p>CompTIA A+Certified Computer Technician | Microsoft Certified IT Professional(MCITP) |
-            CCNA</p>
-            <p>Award:</p>
-        <p>Distinction in Academic Achievement - Cisco Certify Network Administrator</p> -->
+
                 <br>
                 <br>
 
@@ -182,79 +197,7 @@
                 <hr class="divider">
                 <br>
                 <br>
-                <!-- <h1 class="resume-topic">EMPLOYMENT</h1>
-                <br>
-                <img class="job-logo1" src="{{ url_for('main_bp.download_image', resource='skycity.png') }}"
-                    alt="skycity-logo">
-                <h2 class="bold-title">Web Developer</h2>
-                <h4>
-                    <strong><a href="https://skycity.co.nz/">
-                            <i class="fa-solid fa-at"></i> SKYCITY Entertainment Group:</a></strong>
-                </h4>
-                <p>Feb 2023 - Aug 2023</p>
-                <br>
-                <h4 class="bold-title">Roles: </h4>
-                <h4>Reprocess/Troubleshoot of BizTalk jobs with Dynamics365 and MS SQL.</h4>
-                <h4>Performed analysis on Keyless application API to validate actual daily usage of the application in
-                    Adelaide EOS hotel(Kusto query).</h4>
-                <h4>Engaged with clients to collect, defined, translated user requirements into implementation plans and
-                    optimize the current chatbot queries. Deployed it to UAT environment (Power Platform/CICD
-                    Pipeline/Azure DevOps).</h4>
 
-
-                <br>
-                <br>
-                <img class="job-logo1" src="{{ url_for('main_bp.download_image', resource='jket_logo.jpg') }}"
-                    alt="jket-logo">
-                <h2 class="bold-title">Full Stack Web Developer [Volunteer]</h2>
-                <h4>
-                    <strong><a href="https://www.facebook.com/inchJ/">
-                            <i class="fa-solid fa-at"></i> Japan Kauri Education Trust</a></strong>
-                </h4>
-                <p>May 2022 - Current</p>
-                <br>
-                <h4 class="bold-title">Roles: </h4>
-                <h4>Designed and built whole application with Django/PostgreSQL/Bootstrap/CSS.</h4>
-                <h4>Customising the application in liaison with admin staff in response to their user experience.</h4>
-                <h4>Migrated data and changed hosting providers from Heroku to Render.</h4>
-
-                <h4><i class="fa-solid fa-circle-arrow-right fa-1x"></i>
-                    <strong><a href="{{ url_for('main_bp.portfolio', _anchor='jket')}}"> More details</a></strong></h4>
-                <br>
-                <br>
-                <img class="job-logo1" src="{{ url_for('main_bp.download_image', resource='fraedom.jpeg') }}"
-                    alt="fraedom">
-                <img class="job-logo2" src="{{ url_for('main_bp.download_image', resource='visa.jpeg') }}" alt="visa">
-                <h2 class="bold-title">Systems Support Engineer</h2>
-                <h4>
-                    <strong><a href="https://www.visa.co.nz/">
-                            <i class="fa-solid fa-at"></i> Fraedom Limited./Visa Inc.</a></strong>
-                </h4>
-                <p>Mar 2012-Jan 2022</p>
-                <br>
-                <h4 class="bold-title">Roles: </h4>
-                <h4>Global Support for internal servers, workstations, mobiles, tablets, printers, audio devices.</h4>
-                <h4>Active Directory, Domain Controllers, WSUS, DNS, DHCP, File Servers, Exchange Server, VMware,
-                    Hyper-V. </h4>
-                <h4>Microsoft Windows 2k~10, Server 2008~2019, SQL Server, SharePoint, Jira, Confluence.</h4>
-                <h4>In charge of setup/maintenance of MDT for global OS deployment.</h4>
-                <br>
-                <br>
-                <img class="job-logo1" src="{{ url_for('main_bp.download_image', resource='yoobee.png') }}"
-                    alt="yoobee">
-                <h2 class="bold-title">IT Support Technician</h2>
-                <h4><strong><a href="https://yoobee.ac.nz/"><i class="fa-solid fa-at"></i> Freelance Animation School
-                            (Current Yoobee College)</a></strong></h4>
-                <p>Aug 2011-Mar 2012</p>
-                <br>
-                <h4 class="bold-title">Roles: </h4>
-                <h4>Support for internal workstations, printers. Software/hardware/network troubleshooting.</h4>
-                <h4>Active Directory, Domain Controller, WSUS, FSRM, Anti-vurus solution.</h4>
-                <br>
-                <br>
-                <hr class="divider">
-                <br>
-                <br> -->
 
 
                 <a href="{{ url_for('resume_bp.download_resume')}}" target="blank"><button type='button'
@@ -266,9 +209,6 @@
             </div>
             <footer class="special_footer">© {{ year }} Ai Oakenful</footer>
         </div>
-
-
-
         </div>
 
         {% endblock %}

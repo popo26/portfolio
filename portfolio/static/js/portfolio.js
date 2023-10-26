@@ -3,8 +3,7 @@ function showContent(num) {
     const modalDiv = document.querySelector(`.modal${num}`);
     const cardBody = document.querySelector(`.c${num}`);
     const centerTitle = document.querySelector(`.title${num}`);
-    modalDiv.addEventListener("click", function (e) {
-
+    modalDiv.addEventListener("click", function(e){
       e.preventDefault();
       if (cardBody.style.display === "block"){
         cardBody.style.display = "none";
