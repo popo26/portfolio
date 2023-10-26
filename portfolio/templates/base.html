@@ -6,13 +6,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Tajawal:wght@300;700&display=swap" rel="stylesheet">
-<!-- CSS     -->
-<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css')}}" />
+
 
 <!-- font awesome -->
 <script src="https://kit.fontawesome.com/c63fcc0406.js" crossorigin="anonymous"></script>
 <!-- Favicon -->
 <link rel="icon" href="{{ url_for('main_bp.download_image', resource='favicon1.ico')}}">
+<!-- Bootstrap -->
+<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+
+<!-- CSS     -->
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css')}}" />
+
 {% endblock %}
 
 {% block title %}{{ super() }}Ai Oakenfull {% endblock %}
@@ -70,6 +75,8 @@
     {% block page_content %}{% endblock %}
     </main>
     <footer>© {{ year }} Ai Oakenful</footer>
-
+<!-- Bootstrap -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> -->
+<script src="../static/js/portfolio.js" type="module"></script>
 </body>
 {% endblock %}
