@@ -25,7 +25,7 @@ function showContent(num) {
   
 
 
-const numOfItems = 12;
+const numOfItems = 14;
 for (let i = 1; i <= numOfItems; i++) {
   showContent(i);
 }
